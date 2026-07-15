@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        id="meta-description"
+        name="description"
+        content="Perfil educativo de uma substância no NeuroMap."
+    >
+
+    <title>Substância | NeuroMap</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/substancia.css">
+
+    <script src="js/menu-lateral.js" defer></script>
+    <script src="js/substancia.js" defer></script>
+</head>
+
+<body class="pagina-detalhe">
+    <header class="cabecalho">
+        <div class="container navegacao">
+            <a class="logo" href="index.html" aria-label="Página inicial do NeuroMap">
+                <span class="logo-simbolo">N</span>
+                <span>NeuroMap</span>
+            </a>
+
+            <nav aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#substancias">Substâncias</a></li>
+                    <li><a href="index.html#recursos">Recursos</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pagina-substancia">
+        <section class="cabecalho-substancia">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Caminho de navegação">
+                    <a href="index.html">Início</a>
+                    <span aria-hidden="true">/</span>
+                    <a href="index.html#substancias">Substâncias</a>
+                    <span aria-hidden="true">/</span>
+                    <span id="breadcrumb-atual">Carregando...</span>
+                </nav>
+
+                <div class="topo-substancia">
+                    <div class="introducao-substancia">
+                        <span
+                            class="categoria categoria-destaque"
+                            id="categoria-substancia"
+                        >
+                            Carregando categoria...
+                        </span>
+
+                        <h1 id="nome-substancia">
+                            Carregando...
+                        </h1>
+
+                        <p
+                            class="resumo-detalhado"
+                            id="resumo-substancia"
+                        >
+                            Aguarde enquanto os dados são carregados.
+                        </p>
+
+                        <a class="voltar" href="index.html#substancias">
+                            <span aria-hidden="true">←</span>
+                            Voltar à biblioteca
+                        </a>
+                    </div>
+
+                    <aside class="formula-painel" aria-label="Identificação química">
+                        <span class="formula-rotulo">Fórmula molecular</span>
+
+                        <strong id="formula-substancia">
+                            —
+                        </strong>
+
+                        <span class="formula-legenda">
+                            Identificação química da substância
+                        </span>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section class="ficha-rapida" aria-label="Resumo rápido">
+            <div class="container grade-ficha">
+                <article>
+                    <span class="ficha-numero">01</span>
+                    <div>
+                        <span>Classificação</span>
+                        <strong id="ficha-categoria">Carregando...</strong>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="ficha-numero">02</span>
+                    <div>
+                        <span>Efeito predominante</span>
+                        <strong id="ficha-efeito">Carregando...</strong>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="ficha-numero">03</span>
+                    <div>
+                        <span>Principal mecanismo</span>
+                        <strong id="ficha-mecanismo">Carregando...</strong>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao secao-conteudo">
+            <div class="container layout-conteudo">
+                <div class="conteudo-principal">
+                    <article class="bloco-detalhe" id="o-que-e">
+                        <div class="titulo-bloco">
+                            <span>01</span>
+                            <h2>O que é?</h2>
+                        </div>
+
+                        <p id="descricao-substancia">
+                            Carregando descrição...
+                        </p>
+                    </article>
+
+                    <article class="bloco-detalhe" id="onde-encontrar">
+                        <div class="titulo-bloco">
+                            <span>02</span>
+                            <h2>Onde pode ser encontrada?</h2>
+                        </div>
+
+                        <ul class="lista-informativa lista-colunas" id="lista-fontes">
+                            <li>Carregando informações...</li>
+                        </ul>
+                    </article>
+
+                    <article class="bloco-detalhe bloco-mecanismo" id="mecanismo">
+                        <div class="titulo-bloco">
+                            <span>03</span>
+                            <h2>Como age no cérebro e no organismo?</h2>
+                        </div>
+
+                        <p id="mecanismo-substancia">
+                            Carregando mecanismo...
+                        </p>
+
+                        <div class="explicacao-simples">
+                            <span class="explicacao-etiqueta">Em linguagem simples</span>
+
+                            <p id="mecanismo-simples">
+                                Carregando explicação...
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="bloco-detalhe" id="efeitos">
+                        <div class="titulo-bloco">
+                            <span>04</span>
+                            <h2>Efeitos possíveis</h2>
+                        </div>
+
+                        <ul class="lista-informativa lista-colunas" id="lista-efeitos">
+                            <li>Carregando efeitos...</li>
+                        </ul>
+                    </article>
+
+                    <article class="bloco-detalhe bloco-riscos" id="riscos">
+                        <div class="titulo-bloco">
+                            <span>05</span>
+                            <h2>Riscos e sinais de alerta</h2>
+                        </div>
+
+                        <ul class="lista-informativa" id="lista-riscos">
+                            <li>Carregando riscos...</li>
+                        </ul>
+                    </article>
+
+                    <article class="bloco-detalhe" id="abstinencia">
+                        <div class="titulo-bloco">
+                            <span>06</span>
+                            <h2>Dependência e abstinência</h2>
+                        </div>
+
+                        <p id="texto-abstinencia">
+                            Carregando informações...
+                        </p>
+
+                        <ul class="lista-informativa lista-colunas" id="lista-abstinencia"></ul>
+                    </article>
+
+                    <article class="bloco-detalhe" id="interacoes">
+                        <div class="titulo-bloco">
+                            <span>07</span>
+                            <h2>Interações</h2>
+                        </div>
+
+                        <ul class="lista-informativa" id="lista-interacoes">
+                            <li>Carregando interações...</li>
+                        </ul>
+                    </article>
+
+                    <article class="bloco-detalhe" id="referencias">
+                        <div class="titulo-bloco">
+                            <span>08</span>
+                            <h2>Referências utilizadas</h2>
+                        </div>
+
+                        <div id="lista-referencias">
+                            <p>Carregando referências...</p>
+                        </div>
+                    </article>
+
+                    <aside class="aviso-educativo">
+                        <span class="aviso-icone" aria-hidden="true">i</span>
+
+                        <div>
+                            <strong>Aviso educativo</strong>
+
+                            <p>
+                                O conteúdo apresenta informações gerais para fins
+                                educacionais. Ele não representa diagnóstico,
+                                previsão individual, recomendação de consumo ou
+                                orientação médica.
+                            </p>
+                        </div>
+                    </aside>
+                </div>
+
+                <aside class="sumario-wrapper">
+                    <nav class="sumario-lateral" aria-label="Sumário da página">
+                        <span class="sumario-etiqueta">Nesta página</span>
+
+                        <a href="#o-que-e"><span>01</span> O que é?</a>
+                        <a href="#onde-encontrar"><span>02</span> Onde encontrar</a>
+                        <a href="#mecanismo"><span>03</span> Mecanismo</a>
+                        <a href="#efeitos"><span>04</span> Efeitos</a>
+                        <a href="#riscos"><span>05</span> Riscos</a>
+                        <a href="#abstinencia"><span>06</span> Abstinência</a>
+                        <a href="#interacoes"><span>07</span> Interações</a>
+                        <a href="#referencias"><span>08</span> Referências</a>
+
+                        <a class="sumario-voltar" href="index.html#substancias">
+                            ← Voltar à biblioteca
+                        </a>
+                    </nav>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <div>
+                <strong>NeuroMap</strong>
+                <p>Atlas interativo de substâncias e neurociência.</p>
+            </div>
+
+            <p>Conteúdo educativo, não clínico.</p>
+        </div>
+    </footer>
+</body>
+</html>

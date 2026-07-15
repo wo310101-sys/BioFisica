@@ -1,0 +1,634 @@
+[
+    {
+        "id": "cafeina",
+        "nome": "Cafeína",
+        "categoria": "Estimulante",
+        "formula": "C8H10N4O2",
+        "cor": "#1d72f3",
+
+        "resumo": "A cafeína é uma substância estimulante encontrada no café, chá, cacau, guaraná, refrigerantes, bebidas energéticas e alguns medicamentos.",
+
+        "descricao": "A cafeína é uma metilxantina com ação estimulante sobre o sistema nervoso central. Ela pode aumentar temporariamente o estado de alerta e reduzir a sensação de sonolência, mas os efeitos variam entre as pessoas.",
+
+        "efeitoPredominante": "Maior estado de alerta",
+
+        "mecanismoCurto": "Bloqueio dos receptores de adenosina",
+
+        "mecanismo": "O principal mecanismo da cafeína no sistema nervoso central é o antagonismo dos receptores de adenosina. A cafeína compete com a adenosina por esses receptores e reduz temporariamente parte da sinalização inibitória relacionada ao repouso e à sonolência.",
+
+        "mecanismoSimples": "A adenosina funciona como um sinal de que o cérebro está ficando cansado. A cafeína ocupa temporariamente os locais onde esse sinal seria recebido. O cansaço não desaparece, mas parte do aviso fica bloqueada.",
+
+        "fontes": [
+            "Grãos de café",
+            "Folhas utilizadas na produção de chá",
+            "Cacau e chocolate",
+            "Guaraná",
+            "Noz-de-cola",
+            "Refrigerantes com cafeína",
+            "Bebidas energéticas",
+            "Alguns medicamentos"
+        ],
+
+        "efeitos": [
+            "Aumento temporário do estado de alerta",
+            "Redução da sensação de sonolência",
+            "Inquietação ou excitabilidade",
+            "Ansiedade e irritabilidade",
+            "Aumento da frequência cardíaca",
+            "Maior frequência urinária",
+            "Desconforto no estômago",
+            "Dificuldade para dormir"
+        ],
+
+        "riscos": [
+            "Insônia",
+            "Tremores",
+            "Náuseas e vômitos",
+            "Agitação intensa",
+            "Batimentos cardíacos muito rápidos ou irregulares",
+            "Confusão ou crise de pânico",
+            "Convulsões em intoxicações graves",
+            "Produtos concentrados em pó ou comprimidos podem apresentar risco elevado"
+        ],
+
+        "abstinenciaTexto": "Após o uso frequente, a redução ou interrupção da cafeína pode causar sintomas temporários.",
+
+        "abstinencia": [
+            "Dor de cabeça",
+            "Cansaço ou sonolência",
+            "Irritabilidade",
+            "Dificuldade de concentração",
+            "Náusea",
+            "Humor deprimido ou disfórico",
+            "Sintomas semelhantes aos de gripe"
+        ],
+
+        "interacoes": [
+            "A cafeína pode mascarar parte da sonolência provocada pelo álcool, mas não elimina seus prejuízos sobre coordenação, julgamento e reflexos.",
+            "O uso junto com outros estimulantes pode intensificar ansiedade, agitação e alterações cardiovasculares.",
+            "Alguns medicamentos podem alterar a velocidade com que a cafeína é metabolizada."
+        ],
+
+        "referencias": [
+            {
+                "titulo": "Alcohol and Drug Foundation — Caffeine",
+                "url": "https://adf.org.au/drug-facts/caffeine/",
+                "uso": "Classificação, fontes, efeitos, riscos e sintomas de abstinência."
+            },
+            {
+                "titulo": "NCBI Bookshelf — Pharmacology of Caffeine",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK223808/",
+                "uso": "Mecanismo farmacológico e antagonismo dos receptores de adenosina."
+            },
+            {
+                "titulo": "NCBI Bookshelf — Central Nervous System Stimulants",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK548702/",
+                "uso": "Contextualização da cafeína entre os estimulantes do sistema nervoso central."
+            },
+            {
+                "titulo": "Alcohol and Drug Foundation — Drug Wheel",
+                "url": "https://adf.org.au/drug-facts/#wheel",
+                "uso": "Classificação visual das substâncias em categorias gerais."
+            }
+        ]
+    },
+
+    {
+        "id": "alcool",
+        "nome": "Álcool",
+        "categoria": "Depressor",
+        "formula": "C2H6O",
+        "cor": "#8b5cf6",
+
+        "resumo": "O álcool, especificamente o etanol presente nas bebidas alcoólicas, é uma substância depressora do sistema nervoso central.",
+
+        "descricao": "O álcool é uma substância psicoativa produzida principalmente por fermentação. Embora em pequenas quantidades possa inicialmente gerar desinibição e sensação de energia, seu efeito predominante é reduzir a atividade do sistema nervoso central.",
+
+        "efeitoPredominante": "Redução da atividade do sistema nervoso",
+
+        "mecanismoCurto": "Alteração dos sistemas GABA e glutamato",
+
+        "mecanismo": "O etanol atua em diferentes sistemas de neurotransmissão. Entre seus efeitos, pode aumentar a sinalização inibitória relacionada ao GABA e reduzir parte da sinalização excitatória relacionada ao glutamato. Isso contribui para sedação, lentidão dos reflexos, prejuízo da coordenação e alterações da memória.",
+
+        "mecanismoSimples": "O álcool reduz progressivamente a velocidade com que partes do cérebro processam e enviam informações. A pessoa pode se sentir mais desinibida, mas seus reflexos, julgamento e coordenação ficam prejudicados.",
+
+        "fontes": [
+            "Cerveja",
+            "Vinho",
+            "Espumantes",
+            "Cachaça",
+            "Vodca",
+            "Uísque",
+            "Licores",
+            "Outras bebidas fermentadas ou destiladas"
+        ],
+
+        "efeitos": [
+            "Sensação de relaxamento",
+            "Redução das inibições",
+            "Dificuldade para se concentrar",
+            "Reflexos mais lentos",
+            "Falta de coordenação",
+            "Fala arrastada",
+            "Alterações de humor",
+            "Náusea e vômitos",
+            "Falhas de memória"
+        ],
+
+        "riscos": [
+            "Acidentes e decisões de risco",
+            "Intoxicação alcoólica",
+            "Confusão",
+            "Respiração lenta",
+            "Perda de consciência",
+            "Coma",
+            "Dependência",
+            "Doenças cardiovasculares e hepáticas no uso frequente",
+            "A abstinência após dependência pode ser grave"
+        ],
+
+        "abstinenciaTexto": "A abstinência de álcool após uso frequente e dependência pode ser grave e precisa de orientação profissional. Em casos intensos, pode causar convulsões, alucinações e risco de morte.",
+
+        "abstinencia": [
+            "Suor excessivo",
+            "Tremores",
+            "Náusea",
+            "Ansiedade",
+            "Irritabilidade",
+            "Dificuldade para dormir",
+            "Convulsões em casos graves",
+            "Delírios ou alucinações em casos graves"
+        ],
+
+        "interacoes": [
+            "Álcool com benzodiazepínicos, GHB ou opioides aumenta o risco de perda de consciência e depressão respiratória.",
+            "Álcool com cannabis pode intensificar náusea, vômitos e prejuízo da coordenação.",
+            "Álcool com estimulantes pode reduzir a percepção subjetiva da intoxicação e favorecer maior consumo.",
+            "Cafeína não acelera a eliminação do álcool do organismo."
+        ],
+
+        "referencias": [
+            {
+                "titulo": "Alcohol and Drug Foundation — Alcohol",
+                "url": "https://adf.org.au/drug-facts/alcohol/",
+                "uso": "Classificação, efeitos, riscos, interações, dependência e abstinência."
+            },
+            {
+                "titulo": "Alcohol and Drug Foundation — Depressants",
+                "url": "https://adf.org.au/drug-facts/depressants/",
+                "uso": "Contextualização do álcool na categoria dos depressores."
+            },
+            {
+                "titulo": "NCBI Bookshelf — Biochemistry, Gamma Aminobutyric Acid",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK551683/",
+                "uso": "Mecanismos relacionados aos sistemas GABA e glutamato."
+            },
+            {
+                "titulo": "Alcohol and Drug Foundation — Drug Wheel",
+                "url": "https://adf.org.au/drug-facts/#wheel",
+                "uso": "Classificação visual na categoria dos depressores."
+            }
+        ]
+    },
+
+    {
+        "id": "nicotina",
+        "nome": "Nicotina",
+        "categoria": "Estimulante",
+        "formula": "C10H14N2",
+        "cor": "#25a18e",
+
+        "resumo": "A nicotina é uma substância estimulante presente naturalmente no tabaco e também utilizada em alguns produtos para reposição de nicotina.",
+
+        "descricao": "A nicotina é um alcaloide encontrado principalmente na planta do tabaco. Ela age rapidamente no sistema nervoso, pode influenciar atenção e humor e possui elevado potencial de causar dependência.",
+
+        "efeitoPredominante": "Estimulação e ativação do sistema de recompensa",
+
+        "mecanismoCurto": "Ativação de receptores nicotínicos",
+
+        "mecanismo": "A nicotina liga-se aos receptores nicotínicos de acetilcolina. Esses receptores funcionam como canais iônicos e participam da comunicação entre neurônios. Sua ativação também influencia a liberação de neurotransmissores, incluindo a dopamina, envolvida nos circuitos de recompensa e dependência.",
+
+        "mecanismoSimples": "A nicotina imita parte da ação da acetilcolina e ativa receptores no cérebro. Essa ativação pode gerar sensação temporária de atenção ou recompensa, favorecendo a repetição do uso.",
+
+        "fontes": [
+            "Cigarros",
+            "Charutos",
+            "Cachimbos",
+            "Narguilé",
+            "Tabaco de mascar",
+            "Rapé",
+            "Cigarros eletrônicos e vapes com nicotina",
+            "Adesivos, gomas e pastilhas de reposição de nicotina"
+        ],
+
+        "efeitos": [
+            "Aumento da frequência cardíaca",
+            "Aumento da pressão arterial",
+            "Tontura",
+            "Dor de cabeça",
+            "Náusea",
+            "Redução do apetite",
+            "Sensação temporária de relaxamento",
+            "Alterações temporárias da atenção e do humor"
+        ],
+
+        "riscos": [
+            "Elevado potencial de dependência",
+            "Aumento da frequência cardíaca e da pressão arterial",
+            "Náuseas e vômitos",
+            "Tontura e fraqueza",
+            "Intoxicação por exposição a grandes quantidades",
+            "Convulsões em intoxicações graves",
+            "Produtos de tabaco queimado também expõem o organismo a muitas substâncias tóxicas que não são a nicotina"
+        ],
+
+        "abstinenciaTexto": "Após uso frequente, a interrupção da nicotina pode causar sintomas que começam geralmente no primeiro dia e podem continuar por alguns dias ou semanas.",
+
+        "abstinencia": [
+            "Desejo intenso de usar nicotina",
+            "Irritabilidade",
+            "Ansiedade",
+            "Humor deprimido",
+            "Inquietação",
+            "Dificuldade para dormir",
+            "Aumento do apetite",
+            "Dificuldade de concentração",
+            "Dor de cabeça"
+        ],
+
+        "interacoes": [
+            "O uso junto com outros estimulantes pode intensificar efeitos cardiovasculares.",
+            "Fumar tabaco junto com cannabis aumenta a exposição a substâncias produzidas pela combustão.",
+            "A redução ou interrupção do tabagismo pode alterar o metabolismo de alguns medicamentos, exigindo orientação profissional."
+        ],
+
+        "referencias": [
+            {
+                "titulo": "Alcohol and Drug Foundation — Tobacco and Nicotine",
+                "url": "https://adf.org.au/drug-facts/tobacco/",
+                "uso": "Classificação, formas de uso, efeitos, riscos e sintomas de abstinência."
+            },
+            {
+                "titulo": "NCBI Bookshelf — Physiology, Cholinergic Receptors",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK526134/",
+                "uso": "Funcionamento dos receptores nicotínicos de acetilcolina."
+            },
+            {
+                "titulo": "NCBI Bookshelf — New Biological Insights into Smoking Cessation",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK555599/",
+                "uso": "Relação entre dopamina, recompensa e dependência de nicotina."
+            },
+            {
+                "titulo": "Alcohol and Drug Foundation — Drug Wheel",
+                "url": "https://adf.org.au/drug-facts/#wheel",
+                "uso": "Classificação visual na categoria dos estimulantes."
+            }
+        ]
+    },
+    {
+    "id": "cannabis",
+    "nome": "Cannabis (THC)",
+    "categoria": "Canabinoide",
+    "formula": "C21H30O2",
+    "cor": "#7c5ce7",
+
+    "resumo": "A cannabis é uma planta que contém diferentes canabinoides. O THC é o principal composto associado aos efeitos psicoativos.",
+
+    "descricao": "Cannabis é o nome dado a plantas que produzem compostos chamados canabinoides. Entre os mais conhecidos estão o THC e o CBD. Os efeitos variam de acordo com a composição do produto, a quantidade, a forma de administração e as características individuais.",
+
+    "efeitoPredominante": "Alteração da percepção e do estado mental",
+
+    "mecanismoCurto": "Ativação de receptores canabinoides",
+
+    "mecanismo": "O THC interage principalmente com os receptores canabinoides CB1 e CB2, que fazem parte do sistema endocanabinoide. Os receptores CB1 estão presentes em várias regiões do sistema nervoso central relacionadas à memória, ao movimento, à percepção, ao apetite e ao humor.",
+
+    "mecanismoSimples": "O cérebro possui um sistema natural de comunicação chamado sistema endocanabinoide. O THC consegue ativar receptores desse sistema e alterar temporariamente a maneira como os neurônios enviam e recebem mensagens.",
+
+    "fontes": [
+        "Flores secas da planta",
+        "Folhas da planta",
+        "Resina e haxixe",
+        "Óleos e extratos",
+        "Produtos comestíveis contendo THC",
+        "Produtos vaporizados",
+        "Algumas formulações medicinais"
+    ],
+
+    "efeitos": [
+        "Sensação de relaxamento ou euforia",
+        "Alteração da percepção do tempo",
+        "Aumento do apetite",
+        "Sonolência",
+        "Redução da memória recente",
+        "Reflexos mais lentos",
+        "Boca seca",
+        "Olhos avermelhados",
+        "Ansiedade ou paranoia em algumas pessoas"
+    ],
+
+    "riscos": [
+        "Prejuízo da coordenação e dos reflexos",
+        "Maior risco de acidentes",
+        "Náuseas ou vômitos",
+        "Aumento da frequência cardíaca",
+        "Ansiedade intensa ou crise de pânico",
+        "Paranoia",
+        "Confusão",
+        "Alterações perceptivas intensas",
+        "Possibilidade de tolerância e dependência após uso frequente",
+        "Produtos com alta concentração de THC podem aumentar a intensidade dos efeitos adversos"
+    ],
+
+    "abstinenciaTexto": "Após uso frequente, a redução ou interrupção do THC pode provocar sintomas temporários. A intensidade varia de acordo com a frequência, a duração do uso e as características individuais.",
+
+    "abstinencia": [
+        "Irritabilidade",
+        "Ansiedade",
+        "Inquietação",
+        "Alterações de humor",
+        "Dificuldade para dormir",
+        "Sonhos intensos",
+        "Redução do apetite",
+        "Náusea",
+        "Dificuldade de concentração"
+    ],
+
+    "interacoes": [
+        "A combinação com álcool pode aumentar náuseas, vômitos e prejuízo da coordenação.",
+        "A combinação com benzodiazepínicos, opioides ou outros depressores pode aumentar sonolência e sedação.",
+        "A combinação com estimulantes pode intensificar ansiedade, agitação e alterações cardiovasculares.",
+        "A combinação com psicodélicos pode intensificar alterações perceptivas e confusão.",
+        "O THC pode interferir nos efeitos de alguns medicamentos."
+    ],
+
+    "referencias": [
+        {
+            "titulo": "Alcohol and Drug Foundation — Cannabis (THC)",
+            "url": "https://adf.org.au/drug-facts/cannabis/",
+            "uso": "Descrição geral, efeitos, riscos, interações, dependência e abstinência."
+        },
+        {
+            "titulo": "NCBI Bookshelf — Tetrahydrocannabinol (THC)",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK563174/",
+            "uso": "Mecanismo do THC e sua interação com os receptores canabinoides CB1 e CB2."
+        },
+        {
+            "titulo": "NCBI Bookshelf — Cannabinoid Receptors and Signal Transduction",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK6154/",
+            "uso": "Funcionamento geral dos receptores canabinoides."
+        },
+        {
+            "titulo": "PubChem — Tetrahydrocannabinol",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Tetrahydrocannabinol",
+            "uso": "Identificação química e fórmula molecular do THC."
+        },
+        {
+            "titulo": "Alcohol and Drug Foundation — Cannabinoids",
+            "url": "https://adf.org.au/drug-facts/cannabinoids/",
+            "uso": "Contextualização do THC dentro do sistema endocanabinoide."
+        }
+    ]
+},
+{
+    "id": "cocaina",
+    "nome": "Cocaína",
+    "categoria": "Estimulante",
+    "formula": "C17H21NO4",
+    "cor": "#df4b4b",
+
+    "resumo": "A cocaína é uma substância estimulante derivada das folhas da planta da coca. Ela pode provocar alterações intensas e temporárias no estado de alerta, no humor e no sistema cardiovascular.",
+
+    "descricao": "A cocaína é um alcaloide estimulante obtido de plantas do gênero Erythroxylum. Ela acelera a comunicação entre o cérebro e o organismo e apresenta elevado potencial de causar dependência.",
+
+    "efeitoPredominante": "Estimulação intensa do sistema nervoso central",
+
+    "mecanismoCurto": "Bloqueio da recaptação de monoaminas",
+
+    "mecanismo": "A cocaína bloqueia transportadores responsáveis pela recaptação de dopamina, noradrenalina e serotonina. Como consequência, essas moléculas permanecem por mais tempo no espaço entre os neurônios, intensificando e prolongando parte de seus sinais.",
+
+    "mecanismoSimples": "Normalmente, transportadores recolhem neurotransmissores depois que uma mensagem é enviada. A cocaína bloqueia parte desse recolhimento, fazendo com que alguns sinais permaneçam ativos por mais tempo.",
+
+    "fontes": [
+        "Folhas da planta da coca",
+        "Cocaína na forma de cloridrato",
+        "Cocaína em pó",
+        "Cocaína de base livre",
+        "Crack, uma forma de cocaína base",
+        "Uso médico restrito como anestésico local em alguns contextos"
+    ],
+
+    "efeitos": [
+        "Sensação temporária de euforia",
+        "Aumento do estado de alerta",
+        "Maior sensação de energia",
+        "Aumento da confiança",
+        "Maior disposição para falar",
+        "Redução do apetite",
+        "Dilatação das pupilas",
+        "Aumento da frequência cardíaca",
+        "Aumento da pressão arterial",
+        "Aumento da temperatura corporal",
+        "Ansiedade",
+        "Irritabilidade ou agitação",
+        "Paranoia",
+        "Dificuldade para dormir"
+    ],
+
+    "riscos": [
+        "Elevado potencial de dependência",
+        "Batimentos cardíacos irregulares",
+        "Pressão arterial muito elevada",
+        "Dor no peito",
+        "Infarto",
+        "Acidente vascular cerebral",
+        "Convulsões",
+        "Aumento perigoso da temperatura corporal",
+        "Agitação intensa",
+        "Confusão",
+        "Paranoia ou psicose",
+        "Danos aos tecidos nasais após exposição repetida pela via nasal",
+        "Problemas renais",
+        "Risco de morte em intoxicações graves"
+    ],
+
+    "abstinenciaTexto": "Depois do uso frequente, a interrupção da cocaína pode provocar uma fase de queda de energia e alterações importantes no humor. A intensidade e a duração variam entre as pessoas.",
+
+    "abstinencia": [
+        "Desejo intenso de usar a substância",
+        "Cansaço ou exaustão",
+        "Falta de energia",
+        "Aumento do sono",
+        "Humor deprimido",
+        "Ansiedade",
+        "Irritabilidade",
+        "Agitação",
+        "Dificuldade de sentir prazer",
+        "Dificuldade de concentração",
+        "Alterações do apetite",
+        "Sonhos intensos ou desagradáveis"
+    ],
+
+    "interacoes": [
+        "A combinação com outros estimulantes pode aumentar a pressão arterial, a frequência cardíaca, a agitação e a temperatura corporal.",
+        "A combinação com álcool pode reduzir a percepção subjetiva da intoxicação e favorecer maior consumo das duas substâncias.",
+        "Quando cocaína e álcool estão presentes ao mesmo tempo, o organismo pode produzir cocaetileno, composto associado ao aumento da toxicidade.",
+        "A combinação com opioides ou outros depressores não neutraliza os efeitos e pode dificultar a percepção de uma intoxicação.",
+        "A combinação com MDMA pode aumentar a sobrecarga cardíaca e o risco de reações graves.",
+        "Misturas de substâncias tornam os efeitos mais difíceis de prever."
+    ],
+
+    "referencias": [
+        {
+            "titulo": "Alcohol and Drug Foundation — Cocaine",
+            "url": "https://adf.org.au/drug-facts/cocaine/",
+            "uso": "Classificação, formas da substância, efeitos, riscos, interações e abstinência."
+        },
+        {
+            "titulo": "National Institute on Drug Abuse — Cocaine",
+            "url": "https://nida.nih.gov/research-topics/cocaine",
+            "uso": "Informações gerais sobre efeitos, dependência e riscos relacionados à cocaína."
+        },
+        {
+            "titulo": "NCBI Bookshelf — Cocaine Toxicity",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK430976/",
+            "uso": "Mecanismo de ação, efeitos cardiovasculares e complicações graves da intoxicação."
+        },
+        {
+            "titulo": "NCBI Bookshelf — Medical Aspects of Stimulant Use Disorders",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK576550/",
+            "uso": "Mecanismos, dependência, abstinência e riscos da combinação entre cocaína e álcool."
+        },
+        {
+            "titulo": "PubChem — Cocaine",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Cocaine",
+            "uso": "Identificação química e fórmula molecular da cocaína."
+        },
+        {
+            "titulo": "Alcohol and Drug Foundation — Drug Wheel",
+            "url": "https://adf.org.au/insights/drug-wheel/",
+            "uso": "Classificação da cocaína na categoria dos estimulantes."
+        }
+    ]
+},
+{
+    "id": "mdma",
+    "nome": "MDMA",
+    "categoria": "Empatógeno",
+    "formula": "C11H15NO2",
+    "cor": "#e34f9b",
+
+    "resumo": "O MDMA é uma substância sintética com características empatógenas e estimulantes. Ele pode alterar temporariamente o humor, a percepção, a energia e os sentimentos de proximidade social.",
+
+    "descricao": "MDMA é a sigla de 3,4-metilenodioximetanfetamina. A substância também é conhecida como ecstasy ou molly, embora produtos comercializados com esses nomes possam conter outras substâncias ou apresentar concentrações imprevisíveis.",
+
+    "efeitoPredominante": "Aumento temporário da conexão emocional e da estimulação",
+
+    "mecanismoCurto": "Liberação aumentada de serotonina e outras monoaminas",
+
+    "mecanismo": "O MDMA atua principalmente nos transportadores de serotonina, favorecendo a liberação desse neurotransmissor e reduzindo sua recaptação. Ele também aumenta, em diferentes proporções, a atividade da noradrenalina e da dopamina. Essas alterações influenciam humor, percepção, temperatura corporal, frequência cardíaca e respostas emocionais.",
+
+    "mecanismoSimples": "Normalmente, os neurônios liberam neurotransmissores e depois recolhem parte dessas moléculas. O MDMA faz com que uma quantidade maior de serotonina e outros neurotransmissores permaneça temporariamente disponível entre os neurônios.",
+
+    "fontes": [
+        "Cristais",
+        "Pó",
+        "Comprimidos vendidos como ecstasy",
+        "Cápsulas vendidas como molly ou MDMA",
+        "Produtos de composição desconhecida vendidos como MDMA",
+        "Pesquisas clínicas realizadas em ambientes controlados"
+    ],
+
+    "efeitos": [
+        "Sensação temporária de euforia",
+        "Maior sensação de conexão emocional",
+        "Aumento da energia",
+        "Maior confiança e sociabilidade",
+        "Intensificação das sensações",
+        "Dilatação das pupilas",
+        "Aumento da frequência cardíaca",
+        "Aumento da pressão arterial",
+        "Suor excessivo",
+        "Redução do apetite",
+        "Tensão muscular",
+        "Ranger ou apertar os dentes",
+        "Náusea",
+        "Ansiedade ou agitação"
+    ],
+
+    "riscos": [
+        "Aumento perigoso da temperatura corporal",
+        "Desidratação",
+        "Redução excessiva do sódio no sangue por consumo exagerado de água",
+        "Batimentos cardíacos muito rápidos ou irregulares",
+        "Pressão arterial elevada",
+        "Confusão e agitação intensa",
+        "Síndrome serotoninérgica",
+        "Convulsões",
+        "Perda de consciência",
+        "Lesões nos rins ou no fígado em intoxicações graves",
+        "Problemas de memória e concentração após uso frequente",
+        "Produtos vendidos como MDMA podem conter outras substâncias",
+        "Duas unidades visualmente iguais podem apresentar composições e concentrações diferentes"
+    ],
+
+    "abstinenciaTexto": "Após o uso frequente ou repetido, a redução ou interrupção do MDMA pode provocar alterações temporárias no humor, no sono, na energia e na capacidade de concentração.",
+
+    "abstinencia": [
+        "Desejo intenso de usar a substância",
+        "Cansaço ou exaustão",
+        "Ansiedade",
+        "Humor deprimido",
+        "Irritabilidade",
+        "Agitação",
+        "Dificuldade para dormir",
+        "Dificuldade de concentração",
+        "Náusea",
+        "Redução do apetite",
+        "Dores no corpo",
+        "Redução do interesse sexual"
+    ],
+
+    "interacoes": [
+        "A combinação com antidepressivos ou outras substâncias que aumentam serotonina pode elevar o risco de síndrome serotoninérgica.",
+        "A combinação com inibidores da monoamina oxidase pode provocar reações graves e potencialmente fatais.",
+        "A combinação com cocaína, metanfetamina ou outros estimulantes aumenta a sobrecarga cardíaca, a agitação e o risco de hipertermia.",
+        "A combinação com álcool ou outros depressores pode mascarar sinais de intoxicação e tornar os efeitos mais difíceis de perceber.",
+        "A combinação com opioides, especialmente tramadol, pode aumentar o risco de convulsões e toxicidade serotoninérgica.",
+        "A combinação com cannabis, LSD ou outros psicodélicos pode intensificar ansiedade, confusão, paranoia e alterações perceptivas."
+    ],
+
+    "referencias": [
+        {
+            "titulo": "Alcohol and Drug Foundation — MDMA",
+            "url": "https://adf.org.au/drug-facts/mdma/",
+            "uso": "Formas, efeitos, riscos, interações, tolerância, dependência e abstinência."
+        },
+        {
+            "titulo": "Alcohol and Drug Foundation — Empathogens",
+            "url": "https://adf.org.au/drug-facts/empathogens/",
+            "uso": "Classificação do MDMA na categoria dos empatógenos."
+        },
+        {
+            "titulo": "National Institute on Drug Abuse — MDMA",
+            "url": "https://nida.nih.gov/research-topics/mdma-ecstasy-molly",
+            "uso": "Descrição geral, efeitos no cérebro e riscos associados ao MDMA."
+        },
+        {
+            "titulo": "NCBI Bookshelf — MDMA Toxicity",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK538482/",
+            "uso": "Mecanismo envolvendo serotonina, noradrenalina e dopamina, além das complicações da intoxicação."
+        },
+        {
+            "titulo": "PubChem — MDMA",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3_4-Methylenedioxymethamphetamine",
+            "uso": "Identificação química e fórmula molecular do MDMA."
+        },
+        {
+            "titulo": "Alcohol and Drug Foundation — Drug Wheel",
+            "url": "https://adf.org.au/insights/drug-wheel/",
+            "uso": "Organização do MDMA entre os empatógenos na Roda das Substâncias."
+        }
+    ]
+}
+
+]

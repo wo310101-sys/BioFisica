@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Plataforma educativa com mapas, informações e simulações sobre substâncias e seus efeitos no organismo."
+    >
+
+    <title>NeuroMap | Atlas Interativo de Substâncias</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/menu-lateral.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container navegacao">
+            <a class="logo" href="#inicio" aria-label="Página inicial do NeuroMap">
+                <span class="logo-simbolo">N</span>
+                <span>NeuroMap</span>
+            </a>
+
+            <nav aria-label="Navegação principal">
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                  <li>
+    <a href="biblioteca.html">
+        Substâncias
+    </a>
+</li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero-conteudo">
+                <div class="hero-texto">
+                    <span class="etiqueta">Plataforma educacional interativa</span>
+
+                    <h1>
+                        Entenda como diferentes substâncias afetam o cérebro
+                        e o organismo.
+                    </h1>
+
+                    <p>
+                        Explore informações científicas, mapas interativos,
+                        comparações e uma simulação educativa da atividade
+                        neuronal.
+                    </p>
+
+                    <div class="hero-botoes">
+                        <a class="botao botao-principal" href="#substancias">
+                            Explorar substâncias
+                        </a>
+
+                        <a class="botao botao-secundario" href="#recursos">
+                            Conhecer os recursos
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="cerebro">
+                        <div class="neuronio neuronio-1"></div>
+                        <div class="neuronio neuronio-2"></div>
+                        <div class="neuronio neuronio-3"></div>
+                        <div class="neuronio neuronio-4"></div>
+                        <div class="pulso pulso-1"></div>
+                        <div class="pulso pulso-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="numeros">
+            <div class="container grade-numeros">
+                <article>
+                    <strong>6</strong>
+                    <span>substâncias iniciais</span>
+                </article>
+
+                <article>
+                    <strong>1</strong>
+                    <span>simulação geral</span>
+                </article>
+
+                <article>
+                    <strong>1</strong>
+                    <span>mapa interativo</span>
+                </article>
+
+                <article>
+                    <strong>100%</strong>
+                    <span>foco educacional</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao" id="substancias">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span class="etiqueta">
+    Demonstração da biblioteca
+</span>
+
+<h2>
+    Alguns perfis em destaque
+</h2>
+
+<p>
+    Conheça uma pequena seleção da biblioteca.
+    A página completa reúne todas as substâncias cadastradas.
+</p>
+                </div>
+
+                <div
+    
+                class="grade-substancias"
+                id="lista-substancias"
+                data-limite="3"
+                aria-live="polite"
+                >
+                    <p class="mensagem-carregamento">
+                        Carregando substâncias...
+                    </p>
+                </div>
+                 <div 
+                 class="acao-biblioteca">
+            <a
+                 class="botao botao-principal"
+                 href="biblioteca.html"
+            >
+        Ver biblioteca completa
+    </a>
+</div>
+            </div>
+        </section>
+
+        <section class="secao secao-recursos" id="recursos">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span class="etiqueta">Próximas construções</span>
+                    <h2>Recursos interativos</h2>
+
+                    <p>
+                        Cada recurso será conectado às páginas detalhadas
+                        das substâncias.
+                    </p>
+                </div>
+
+                <div class="grade-recursos">
+                    <article class="recurso">
+                        <span class="recurso-icone">🌎</span>
+                        <div>
+                            <span class="status">Próxima etapa</span>
+                            <h3>Mapa interativo</h3>
+
+                            <p>
+                                Países clicáveis, camadas de dados,
+                                filtros, legendas, informações históricas
+                                e indicadores.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="recurso">
+                        <span class="recurso-icone">🧠</span>
+                        <div>
+                            <span class="status">Em desenvolvimento</span>
+                            <h3>Simulação neuronal</h3>
+
+                            <p>
+                                Visualização da atividade neuronal,
+                                potenciais de ação, fluxo de íons e efeitos
+                                educacionais das substâncias.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="recurso">
+                        <span class="recurso-icone">📊</span>
+                        <div>
+                            <span class="status">Planejado</span>
+                            <h3>Comparador</h3>
+
+                            <p>
+                                Comparação entre mecanismos, efeitos,
+                                riscos e características de diferentes
+                                substâncias.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao sobre" id="sobre">
+            <div class="container sobre-conteudo">
+                <div>
+                    <span class="etiqueta">Sobre o projeto</span>
+                    <h2>Conhecimento científico explicado de forma visual</h2>
+                </div>
+
+                <div>
+                    <p>
+                        O NeuroMap será uma plataforma educativa destinada à
+                        apresentação de mecanismos gerais, informações
+                        científicas e simulações didáticas.
+                    </p>
+
+                    <p class="aviso">
+                        As simulações não representam diagnóstico, previsão
+                        clínica ou orientação para o consumo de substâncias.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <div>
+                <strong>NeuroMap</strong>
+                <p>Atlas interativo de substâncias e neurociência.</p>
+            </div>
+
+            <p id="ano-rodape"></p>
+        </div>
+    </footer>
+</body>
+</html>
