@@ -1,0 +1,65 @@
+[
+    {
+        "id": "estimulantes",
+        "chaveSubstancia": "Estimulante",
+        "nome": "Estimulantes",
+        "ordem": 1,
+        "cor": "#df4b4b",
+        "resumo": "Substâncias que aumentam temporariamente a atividade e o estado de alerta.",
+        "explicacao": "Os estimulantes aceleram parte das mensagens entre o cérebro e o organismo. Podem aumentar atenção, energia e alerta, mas também provocar ansiedade, agitação, insônia e alterações cardiovasculares."
+    },
+    {
+        "id": "depressores",
+        "chaveSubstancia": "Depressor",
+        "nome": "Depressores",
+        "ordem": 2,
+        "cor": "#5267a8",
+        "resumo": "Substâncias que reduzem a atividade do sistema nervoso central.",
+        "explicacao": "Os depressores tornam mais lentas algumas mensagens entre o cérebro e o organismo. Podem afetar coordenação, concentração, julgamento, memória e respiração."
+    },
+    {
+        "id": "canabinoides",
+        "chaveSubstancia": "Canabinoide",
+        "nome": "Canabinoides",
+        "ordem": 3,
+        "cor": "#5f8f65",
+        "resumo": "Substâncias relacionadas ao sistema endocanabinoide.",
+        "explicacao": "Os canabinoides atuam direta ou indiretamente no sistema endocanabinoide, envolvido em memória, sono, apetite, humor, dor e respostas imunológicas."
+    },
+    {
+        "id": "psicodelicos",
+        "chaveSubstancia": "Psicodélico",
+        "nome": "Psicodélicos",
+        "ordem": 4,
+        "cor": "#7657d9",
+        "resumo": "Substâncias que alteram percepção, pensamentos e sensação de tempo.",
+        "explicacao": "Os psicodélicos podem modificar temporariamente percepção, emoções, pensamentos e sensação de tempo. Os efeitos dependem da substância, dose, contexto e características individuais."
+    },
+    {
+        "id": "opioides",
+        "chaveSubstancia": "Opioide",
+        "nome": "Opioides",
+        "ordem": 5,
+        "cor": "#b87333",
+        "resumo": "Substâncias que atuam nos receptores opioides.",
+        "explicacao": "Os opioides podem aliviar a dor e causar sonolência. Também podem diminuir perigosamente a respiração, causar dependência e provocar overdose."
+    },
+    {
+        "id": "dissociativos",
+        "chaveSubstancia": "Dissociativo",
+        "nome": "Dissociativos",
+        "ordem": 6,
+        "cor": "#258b9b",
+        "resumo": "Substâncias que podem causar sensação de separação do corpo ou ambiente.",
+        "explicacao": "Os dissociativos podem alterar consciência, percepção, memória, coordenação e resposta à dor, além de gerar sensação de afastamento do corpo ou ambiente."
+    },
+    {
+        "id": "empatogenos",
+        "chaveSubstancia": "Empatógeno",
+        "nome": "Empatógenos",
+        "ordem": 7,
+        "cor": "#d94f98",
+        "resumo": "Substâncias associadas a alterações na conexão emocional e social.",
+        "explicacao": "Os empatógenos podem aumentar sentimentos de conexão e empatia, mas também apresentam efeitos estimulantes e riscos como hipertermia e toxicidade serotoninérgica."
+    }
+]
