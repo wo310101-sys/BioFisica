@@ -75,14 +75,13 @@ const menuLateral = {
                                 </span>
                             </a>
 
-                        <a href="biblioteca.html">
-    <span class="link-menu-numero">02</span>
-
-    <span>
-        <strong>Biblioteca</strong>
-        <small>Todos os perfis de substâncias</small>
-    </span>
-</a>
+                            <a href="biblioteca.html">
+                                <span class="link-menu-numero">02</span>
+                                <span>
+                                    <strong>Biblioteca</strong>
+                                    <small>Todos os perfis por categoria</small>
+                                </span>
+                            </a>
 
                             <a href="index.html#recursos">
                                 <span class="link-menu-numero">03</span>

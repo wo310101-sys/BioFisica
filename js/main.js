@@ -2,8 +2,13 @@
 
 const listaSubstancias = document.querySelector("#lista-substancias");
 const anoRodape = document.querySelector("#ano-rodape");
+const contadorSubstancias = document.querySelector("#contador-substancias");
 
 async function carregarSubstancias() {
+    if (!listaSubstancias) {
+        return;
+    }
+
     try {
         const resposta = await fetch("dados/substancias.json");
 
@@ -20,6 +25,7 @@ async function carregarSubstancias() {
         }
 
         exibirSubstancias(substancias);
+        atualizarContador(substancias.length);
     } catch (erro) {
         console.error("Erro ao carregar substâncias:", erro);
 
@@ -32,85 +38,69 @@ async function carregarSubstancias() {
                 </p>
             </div>
         `;
+
+        atualizarContador(0);
     }
 }
 
 function exibirSubstancias(substancias) {
     listaSubstancias.innerHTML = "";
 
-    const limite =
-        Number(listaSubstancias.dataset.limite || 0);
-
-    const substanciasExibidas =
-        limite > 0
-            ? substancias.slice(0, limite)
-            : substancias;
+    const limite = Number(listaSubstancias.dataset.limite || 0);
+    const substanciasExibidas = limite > 0
+        ? substancias.slice(0, limite)
+        : substancias;
 
     substanciasExibidas.forEach((substancia) => {
-        const card =
-            criarCardSubstancia(substancia);
-
-        listaSubstancias.appendChild(card);
+        listaSubstancias.appendChild(criarCardSubstancia(substancia));
     });
 }
 
 function criarCardSubstancia(substancia) {
     const artigo = document.createElement("article");
-
     artigo.className = "card-substancia";
+    artigo.style.setProperty("--cor-card", substancia.cor || "#2563eb");
 
-    artigo.style.setProperty(
-        "--cor-card",
-        substancia.cor || "#1d72f3"
-    );
-
-   const efeitos = substancia.efeitos
-    .slice(0, 3)
-    .map(function (efeito) {
-            return `<li>${escaparHTML(efeito)}</li>`;
-        })
-        .join("");
+    const efeitos = Array.isArray(substancia.efeitos)
+        ? substancia.efeitos
+            .slice(0, 3)
+            .map((efeito) => `<li>${escaparHTML(efeito)}</li>`)
+            .join("")
+        : "<li>Informações em preparação.</li>";
 
     artigo.innerHTML = `
         <div class="card-topo">
             <div>
-                <span class="categoria">
-                    ${escaparHTML(substancia.categoria)}
-                </span>
-
-                <h3>
-                    ${escaparHTML(substancia.nome)}
-                </h3>
+                <span class="categoria">${escaparHTML(substancia.categoria)}</span>
+                <h3>${escaparHTML(substancia.nome)}</h3>
             </div>
-
-            <span class="formula">
-                ${escaparHTML(substancia.formula)}
-            </span>
+            <span class="formula">${escaparHTML(substancia.formula)}</span>
         </div>
 
-        <p class="card-resumo">
-            ${escaparHTML(substancia.resumo)}
-        </p>
+        <p class="card-resumo">${escaparHTML(substancia.resumo)}</p>
 
-        <h4>Alguns efeitos</h4>
-
-        <ul class="lista-efeitos">
-            ${efeitos}
-        </ul>
+        <h4>Efeitos em destaque</h4>
+        <ul class="lista-efeitos">${efeitos}</ul>
 
         <a
             class="botao-card"
             href="substancia.html?id=${encodeURIComponent(substancia.id)}"
         >
-            Abrir página detalhada
+            Abrir perfil
         </a>
     `;
 
     return artigo;
 }
 
+function atualizarContador(total) {
+    if (contadorSubstancias) {
+        contadorSubstancias.textContent = String(total);
+    }
+}
+
 function escaparHTML(valor) {
-    return String(valor)
+    return String(valor ?? "")
         .replaceAll("&", "&amp;")
         .replaceAll("<", "&lt;")
         .replaceAll(">", "&gt;")
@@ -119,10 +109,12 @@ function escaparHTML(valor) {
 }
 
 function atualizarAnoRodape() {
-    const anoAtual = new Date().getFullYear();
+    if (!anoRodape) {
+        return;
+    }
 
     anoRodape.textContent =
-        `© ${anoAtual} NeuroMap — Projeto educacional.`;
+        `© ${new Date().getFullYear()} NeuroMap — Projeto educacional.`;
 }
 
 atualizarAnoRodape();

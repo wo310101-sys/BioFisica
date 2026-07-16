@@ -2,15 +2,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
-        content="Plataforma educativa com mapas, informações e simulações sobre substâncias e seus efeitos no organismo."
+        content="NeuroMap: atlas educacional sobre substâncias, categorias, mecanismos, efeitos, riscos e referências científicas."
     >
 
     <title>NeuroMap | Atlas Interativo de Substâncias</title>
@@ -32,11 +27,7 @@
             <nav aria-label="Navegação principal">
                 <ul class="menu">
                     <li><a href="#inicio">Início</a></li>
-                  <li>
-    <a href="biblioteca.html">
-        Substâncias
-    </a>
-</li>
+                    <li><a href="biblioteca.html">Substâncias</a></li>
                     <li><a href="#recursos">Recursos</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                 </ul>
@@ -48,7 +39,7 @@
         <section class="hero" id="inicio">
             <div class="container hero-conteudo">
                 <div class="hero-texto">
-                    <span class="etiqueta">Plataforma educacional interativa</span>
+                    <span class="etiqueta">Atlas educacional interativo</span>
 
                     <h1>
                         Entenda como diferentes substâncias afetam o cérebro
@@ -56,14 +47,14 @@
                     </h1>
 
                     <p>
-                        Explore informações científicas, mapas interativos,
-                        comparações e uma simulação educativa da atividade
-                        neuronal.
+                        Explore categorias, mecanismos de ação, efeitos,
+                        riscos, interações e referências científicas em uma
+                        experiência visual e acessível.
                     </p>
 
                     <div class="hero-botoes">
-                        <a class="botao botao-principal" href="#substancias">
-                            Explorar substâncias
+                        <a class="botao botao-principal" href="biblioteca.html">
+                            Explorar biblioteca
                         </a>
 
                         <a class="botao botao-secundario" href="#recursos">
@@ -85,21 +76,21 @@
             </div>
         </section>
 
-        <section class="numeros">
+        <section class="numeros" aria-label="Resumo do projeto">
             <div class="container grade-numeros">
                 <article>
-                    <strong>6</strong>
-                    <span>substâncias iniciais</span>
+                    <strong id="contador-substancias">—</strong>
+                    <span>perfis na biblioteca</span>
+                </article>
+
+                <article>
+                    <strong>7</strong>
+                    <span>categorias educativas</span>
                 </article>
 
                 <article>
                     <strong>1</strong>
-                    <span>simulação geral</span>
-                </article>
-
-                <article>
-                    <strong>1</strong>
-                    <span>mapa interativo</span>
+                    <span>sistema automático de páginas</span>
                 </article>
 
                 <article>
@@ -112,40 +103,31 @@
         <section class="secao" id="substancias">
             <div class="container">
                 <div class="titulo-secao">
-                    <span class="etiqueta">
-    Demonstração da biblioteca
-</span>
+                    <span class="etiqueta">Demonstração da biblioteca</span>
+                    <h2>Alguns perfis em destaque</h2>
 
-<h2>
-    Alguns perfis em destaque
-</h2>
-
-<p>
-    Conheça uma pequena seleção da biblioteca.
-    A página completa reúne todas as substâncias cadastradas.
-</p>
+                    <p>
+                        Esta é apenas uma amostra. A biblioteca completa reúne
+                        todas as substâncias organizadas por categoria.
+                    </p>
                 </div>
 
                 <div
-    
-                class="grade-substancias"
-                id="lista-substancias"
-                data-limite="3"
-                aria-live="polite"
+                    class="grade-substancias"
+                    id="lista-substancias"
+                    data-limite="3"
+                    aria-live="polite"
                 >
                     <p class="mensagem-carregamento">
                         Carregando substâncias...
                     </p>
                 </div>
-                 <div 
-                 class="acao-biblioteca">
-            <a
-                 class="botao botao-principal"
-                 href="biblioteca.html"
-            >
-        Ver biblioteca completa
-    </a>
-</div>
+
+                <div class="acao-biblioteca">
+                    <a class="botao botao-principal" href="biblioteca.html">
+                        Ver biblioteca completa
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -156,7 +138,7 @@
                     <h2>Recursos interativos</h2>
 
                     <p>
-                        Cada recurso será conectado às páginas detalhadas
+                        Cada recurso será conectado aos perfis detalhados
                         das substâncias.
                     </p>
                 </div>
@@ -167,11 +149,9 @@
                         <div>
                             <span class="status">Próxima etapa</span>
                             <h3>Mapa interativo</h3>
-
                             <p>
-                                Países clicáveis, camadas de dados,
-                                filtros, legendas, informações históricas
-                                e indicadores.
+                                Países clicáveis, camadas de dados, filtros,
+                                legendas e indicadores.
                             </p>
                         </div>
                     </article>
@@ -181,11 +161,9 @@
                         <div>
                             <span class="status">Em desenvolvimento</span>
                             <h3>Simulação neuronal</h3>
-
                             <p>
-                                Visualização da atividade neuronal,
-                                potenciais de ação, fluxo de íons e efeitos
-                                educacionais das substâncias.
+                                Visualização educativa de atividade neuronal,
+                                receptores e mecanismos gerais.
                             </p>
                         </div>
                     </article>
@@ -195,11 +173,9 @@
                         <div>
                             <span class="status">Planejado</span>
                             <h3>Comparador</h3>
-
                             <p>
-                                Comparação entre mecanismos, efeitos,
-                                riscos e características de diferentes
-                                substâncias.
+                                Comparação entre mecanismos, efeitos, riscos
+                                e características de diferentes substâncias.
                             </p>
                         </div>
                     </article>
@@ -211,19 +187,19 @@
             <div class="container sobre-conteudo">
                 <div>
                     <span class="etiqueta">Sobre o projeto</span>
-                    <h2>Conhecimento científico explicado de forma visual</h2>
+                    <h2>Conhecimento científico explicado de forma visual.</h2>
                 </div>
 
                 <div>
                     <p>
-                        O NeuroMap será uma plataforma educativa destinada à
+                        O NeuroMap é uma plataforma educativa destinada à
                         apresentação de mecanismos gerais, informações
-                        científicas e simulações didáticas.
+                        científicas e futuras simulações didáticas.
                     </p>
 
                     <p class="aviso">
-                        As simulações não representam diagnóstico, previsão
-                        clínica ou orientação para o consumo de substâncias.
+                        O conteúdo não representa diagnóstico, previsão
+                        clínica, recomendação de consumo ou orientação médica.
                     </p>
                 </div>
             </div>

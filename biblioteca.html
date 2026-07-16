@@ -2,15 +2,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
-        content="Biblioteca completa de substâncias do NeuroMap."
+        content="Biblioteca completa do NeuroMap, organizada por sete categorias de substâncias."
     >
 
     <title>Biblioteca de Substâncias | NeuroMap</title>
@@ -18,46 +13,23 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="js/menu-lateral.js" defer></script>
-    <script src="js/main.js" defer></script>
+    <script src="js/biblioteca.js" defer></script>
 </head>
 
 <body>
     <header class="cabecalho">
         <div class="container navegacao">
-            <a
-                class="logo"
-                href="index.html"
-                aria-label="Página inicial do NeuroMap"
-            >
+            <a class="logo" href="index.html" aria-label="Página inicial do NeuroMap">
                 <span class="logo-simbolo">N</span>
                 <span>NeuroMap</span>
             </a>
 
             <nav aria-label="Navegação principal">
                 <ul class="menu">
-                    <li>
-                        <a href="index.html">
-                            Início
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="biblioteca.html">
-                            Substâncias
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="index.html#recursos">
-                            Recursos
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="index.html#sobre">
-                            Sobre
-                        </a>
-                    </li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="biblioteca.html" aria-current="page">Substâncias</a></li>
+                    <li><a href="index.html#recursos">Recursos</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
                 </ul>
             </nav>
         </div>
@@ -70,48 +42,86 @@
                     ← Voltar ao início
                 </a>
 
-                <span class="etiqueta">
-                    Biblioteca completa
-                </span>
+                <span class="etiqueta">Biblioteca completa</span>
 
-                <h1>
-                    Substâncias cadastradas no NeuroMap
-                </h1>
+                <h1>Explore substâncias por categoria</h1>
 
                 <p>
-                    Explore os perfis educativos com mecanismos de ação,
-                    efeitos, riscos, interações, abstinência e referências
-                    científicas.
+                    Consulte perfis educativos com descrição, mecanismo de
+                    ação, efeitos, riscos, abstinência, interações e referências.
                 </p>
             </div>
         </section>
 
-        <section class="secao">
+        <section class="secao secao-biblioteca">
             <div class="container">
                 <div class="titulo-secao">
-                    <span class="etiqueta">
-                        Todos os perfis
-                    </span>
+                    <span class="etiqueta">Organização por categorias</span>
 
-                    <h2>
-                        Biblioteca de substâncias
-                    </h2>
+                    <h2>Encontre o perfil que procura</h2>
 
                     <p>
-                        Esta página mostra automaticamente todas as
-                        substâncias cadastradas no arquivo JSON.
+                        As categorias consideram o efeito predominante. Algumas
+                        substâncias podem apresentar características de mais de
+                        um grupo.
                     </p>
                 </div>
 
+                <div class="controles-biblioteca">
+                    <label class="campo-busca" for="busca-substancia">
+                        <span>Pesquisar na biblioteca</span>
+
+                        <div class="campo-busca-linha">
+                            <input
+                                type="search"
+                                id="busca-substancia"
+                                placeholder="Ex.: cafeína, serotonina ou C8H10N4O2"
+                                autocomplete="off"
+                            >
+
+                            <button type="button" id="limpar-filtros">
+                                Limpar
+                            </button>
+                        </div>
+                    </label>
+
+                    <label class="campo-filtro" for="filtro-categoria">
+                        <span>Filtrar por categoria</span>
+
+                        <select id="filtro-categoria">
+                            <option value="todas">Todas as categorias</option>
+                        </select>
+                    </label>
+
+                    <div class="resultado-biblioteca" aria-live="polite">
+                        <strong id="quantidade-resultados">0</strong>
+                        <span id="rotulo-resultados">perfis encontrados</span>
+                    </div>
+                </div>
+
+                <nav
+                    class="atalhos-categorias"
+                    id="atalhos-categorias"
+                    aria-label="Categorias de substâncias"
+                >
+                    <p class="mensagem-carregamento">Carregando categorias...</p>
+                </nav>
+
                 <div
-                    class="grade-substancias"
-                    id="lista-substancias"
-                    data-limite="0"
+                    class="biblioteca-categorias"
+                    id="biblioteca-categorias"
                     aria-live="polite"
                 >
-                    <p class="mensagem-carregamento">
-                        Carregando substâncias...
-                    </p>
+                    <p class="mensagem-carregamento">Organizando a biblioteca...</p>
+                </div>
+
+                <div
+                    class="mensagem-sem-resultados"
+                    id="mensagem-sem-resultados"
+                    hidden
+                >
+                    <strong>Nenhuma substância encontrada</strong>
+                    <p>Tente pesquisar outro nome, fórmula, efeito ou categoria.</p>
                 </div>
             </div>
         </section>
@@ -121,10 +131,7 @@
         <div class="container rodape-conteudo">
             <div>
                 <strong>NeuroMap</strong>
-
-                <p>
-                    Atlas interativo de substâncias e neurociência.
-                </p>
+                <p>Atlas interativo de substâncias e neurociência.</p>
             </div>
 
             <p id="ano-rodape"></p>
