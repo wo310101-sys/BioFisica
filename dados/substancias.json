@@ -1,0 +1,1386 @@
+[
+    {
+        "id": "cafeina",
+        "nome": "Cafeína",
+        "categoria": "Estimulante",
+        "formula": "C8H10N4O2",
+        "cor": "#1d72f3",
+        "resumo": "Estimulante encontrado no café, chá, cacau, guaraná, energéticos e alguns medicamentos.",
+        "descricao": "Metilxantina que pode aumentar temporariamente o alerta e reduzir a sonolência.",
+        "efeitoPredominante": "Maior estado de alerta",
+        "mecanismoCurto": "Bloqueio dos receptores de adenosina",
+        "mecanismo": "Atua principalmente como antagonista dos receptores de adenosina, reduzindo temporariamente parte da sinalização de repouso e sonolência.",
+        "mecanismoSimples": "Ocupa receptores usados pelo sinal de cansaço, mas não elimina a necessidade de descanso.",
+        "fontes": [
+            "Café",
+            "Chás",
+            "Guaraná",
+            "Cacau e chocolate",
+            "Energéticos",
+            "Alguns medicamentos"
+        ],
+        "efeitos": [
+            "Aumento do alerta",
+            "Redução da sonolência",
+            "Inquietação",
+            "Ansiedade",
+            "Palpitações",
+            "Insônia"
+        ],
+        "riscos": [
+            "Tremores",
+            "Náusea",
+            "Agitação intensa",
+            "Arritmias",
+            "Crise de pânico",
+            "Convulsões em intoxicações graves"
+        ],
+        "abstinenciaTexto": "Após uso frequente, a redução pode causar sintomas temporários.",
+        "abstinencia": [
+            "Dor de cabeça",
+            "Cansaço",
+            "Irritabilidade",
+            "Sonolência",
+            "Dificuldade de concentração"
+        ],
+        "interacoes": [
+            "Álcool: pode mascarar sonolência sem reduzir prejuízos.",
+            "Outros estimulantes: maior risco de ansiedade e alterações cardiovasculares."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Caffeine",
+                "url": "https://adf.org.au/drug-facts/caffeine/",
+                "uso": "Efeitos, riscos e abstinência."
+            },
+            {
+                "titulo": "NCBI — Pharmacology of Caffeine",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK223808/",
+                "uso": "Mecanismo nos receptores de adenosina."
+            },
+            {
+                "titulo": "PubChem — Caffeine",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Caffeine",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "nicotina",
+        "nome": "Nicotina",
+        "categoria": "Estimulante",
+        "formula": "C10H14N2",
+        "cor": "#25a18e",
+        "resumo": "Estimulante presente no tabaco, vapes e produtos de reposição de nicotina.",
+        "descricao": "Alcaloide com ação rápida no sistema nervoso e elevado potencial de dependência.",
+        "efeitoPredominante": "Estimulação e ativação do sistema de recompensa",
+        "mecanismoCurto": "Ativação de receptores nicotínicos",
+        "mecanismo": "Ativa receptores nicotínicos de acetilcolina e influencia a liberação de dopamina e outros neurotransmissores.",
+        "mecanismoSimples": "Imita parte da ação da acetilcolina e reforça circuitos de recompensa.",
+        "fontes": [
+            "Cigarros",
+            "Charutos",
+            "Narguilé",
+            "Rapé",
+            "Vapes com nicotina",
+            "Adesivos e gomas"
+        ],
+        "efeitos": [
+            "Aumento da frequência cardíaca",
+            "Aumento da pressão arterial",
+            "Tontura",
+            "Náusea",
+            "Redução do apetite",
+            "Alterações temporárias da atenção"
+        ],
+        "riscos": [
+            "Dependência",
+            "Intoxicação",
+            "Convulsões em casos graves",
+            "Alterações cardiovasculares",
+            "Náuseas e vômitos"
+        ],
+        "abstinenciaTexto": "A interrupção após uso frequente pode causar sintomas por dias ou semanas.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Irritabilidade",
+            "Ansiedade",
+            "Insônia",
+            "Aumento do apetite",
+            "Dificuldade de concentração"
+        ],
+        "interacoes": [
+            "Outros estimulantes podem aumentar efeitos cardiovasculares.",
+            "Parar de fumar pode alterar o metabolismo de alguns medicamentos."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Tobacco and Nicotine",
+                "url": "https://adf.org.au/drug-facts/tobacco/",
+                "uso": "Efeitos, dependência e abstinência."
+            },
+            {
+                "titulo": "NCBI — Cholinergic Receptors",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK526134/",
+                "uso": "Mecanismo dos receptores nicotínicos."
+            },
+            {
+                "titulo": "PubChem — Nicotine",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Nicotine",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "cocaina",
+        "nome": "Cocaína",
+        "categoria": "Estimulante",
+        "formula": "C17H21NO4",
+        "cor": "#df4b4b",
+        "resumo": "Estimulante derivado das folhas da coca, com efeitos intensos sobre alerta, humor e sistema cardiovascular.",
+        "descricao": "Alcaloide estimulante com elevado potencial de dependência.",
+        "efeitoPredominante": "Estimulação intensa do sistema nervoso central",
+        "mecanismoCurto": "Bloqueio da recaptação de monoaminas",
+        "mecanismo": "Bloqueia transportadores de dopamina, noradrenalina e serotonina, prolongando sua presença entre os neurônios.",
+        "mecanismoSimples": "Dificulta o recolhimento de alguns neurotransmissores após a mensagem neuronal.",
+        "fontes": [
+            "Folhas da coca",
+            "Cocaína em pó",
+            "Cloridrato de cocaína",
+            "Base livre",
+            "Crack"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Aumento do alerta",
+            "Energia",
+            "Redução do apetite",
+            "Palpitações",
+            "Ansiedade",
+            "Paranoia"
+        ],
+        "riscos": [
+            "Dependência",
+            "Arritmias",
+            "Infarto",
+            "AVC",
+            "Convulsões",
+            "Hipertermia",
+            "Psicose",
+            "Risco de morte"
+        ],
+        "abstinenciaTexto": "A interrupção pode produzir queda de energia e alterações importantes de humor.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Exaustão",
+            "Sono aumentado",
+            "Humor deprimido",
+            "Ansiedade",
+            "Irritabilidade"
+        ],
+        "interacoes": [
+            "Álcool pode levar à formação de cocaetileno.",
+            "Outros estimulantes aumentam a sobrecarga cardiovascular."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Cocaine",
+                "url": "https://adf.org.au/drug-facts/cocaine/",
+                "uso": "Efeitos, riscos e interações."
+            },
+            {
+                "titulo": "NCBI — Cocaine Toxicity",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK430976/",
+                "uso": "Mecanismo e complicações."
+            },
+            {
+                "titulo": "PubChem — Cocaine",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Cocaine",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "alcool",
+        "nome": "Álcool",
+        "categoria": "Depressor",
+        "formula": "C2H6O",
+        "cor": "#8b5cf6",
+        "resumo": "O etanol presente nas bebidas alcoólicas é um depressor do sistema nervoso central.",
+        "descricao": "Substância psicoativa produzida principalmente por fermentação. Apesar da desinibição inicial, reduz a atividade cerebral.",
+        "efeitoPredominante": "Redução da atividade do sistema nervoso",
+        "mecanismoCurto": "Alteração dos sistemas GABA e glutamato",
+        "mecanismo": "Modifica vários sistemas de neurotransmissão, aumentando sinais inibitórios e reduzindo parte da atividade excitatória.",
+        "mecanismoSimples": "Reduz a velocidade de processamento do cérebro e prejudica reflexos, julgamento e coordenação.",
+        "fontes": [
+            "Cerveja",
+            "Vinho",
+            "Cachaça",
+            "Vodca",
+            "Uísque",
+            "Licores"
+        ],
+        "efeitos": [
+            "Relaxamento",
+            "Desinibição",
+            "Reflexos lentos",
+            "Falta de coordenação",
+            "Fala arrastada",
+            "Falhas de memória"
+        ],
+        "riscos": [
+            "Acidentes",
+            "Intoxicação",
+            "Respiração lenta",
+            "Coma",
+            "Dependência",
+            "Doenças hepáticas"
+        ],
+        "abstinenciaTexto": "A abstinência após dependência pode ser grave e requer avaliação profissional.",
+        "abstinencia": [
+            "Suor",
+            "Tremores",
+            "Náusea",
+            "Ansiedade",
+            "Insônia",
+            "Convulsões em casos graves"
+        ],
+        "interacoes": [
+            "Benzodiazepínicos, GHB e opioides aumentam muito o risco de depressão respiratória.",
+            "Cafeína não acelera sua eliminação."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Alcohol",
+                "url": "https://adf.org.au/drug-facts/alcohol/",
+                "uso": "Efeitos, riscos e abstinência."
+            },
+            {
+                "titulo": "ADF — Depressants",
+                "url": "https://adf.org.au/drug-facts/depressants/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Ethanol",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Ethanol",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "benzodiazepinicos",
+        "nome": "Benzodiazepínicos",
+        "categoria": "Depressor",
+        "formula": "Várias fórmulas",
+        "cor": "#5267a8",
+        "resumo": "Classe de medicamentos depressores usados sob prescrição em situações como ansiedade, insônia e convulsões.",
+        "descricao": "Incluem medicamentos com diferentes potências e durações. O uso prolongado pode causar tolerância, dependência e abstinência grave.",
+        "efeitoPredominante": "Sedação e redução da excitabilidade neuronal",
+        "mecanismoCurto": "Modulação positiva dos receptores GABA-A",
+        "mecanismo": "Aumentam a ação do GABA nos receptores GABA-A, reduzindo a excitabilidade dos neurônios.",
+        "mecanismoSimples": "Reforçam um dos principais sinais de desaceleração do cérebro.",
+        "fontes": [
+            "Comprimidos prescritos",
+            "Cápsulas",
+            "Soluções orais",
+            "Formulações injetáveis médicas"
+        ],
+        "efeitos": [
+            "Sonolência",
+            "Relaxamento muscular",
+            "Redução da ansiedade",
+            "Tontura",
+            "Amnésia",
+            "Falta de coordenação"
+        ],
+        "riscos": [
+            "Dependência",
+            "Quedas",
+            "Confusão",
+            "Depressão respiratória em combinações",
+            "Convulsões após interrupção abrupta",
+            "Coma"
+        ],
+        "abstinenciaTexto": "A interrupção abrupta após uso prolongado pode ser perigosa e deve ser orientada.",
+        "abstinencia": [
+            "Ansiedade intensa",
+            "Insônia",
+            "Tremores",
+            "Sudorese",
+            "Náusea",
+            "Convulsões em casos graves"
+        ],
+        "interacoes": [
+            "Álcool, opioides e GHB aumentam fortemente o risco de overdose.",
+            "Outros sedativos intensificam sonolência e perda de coordenação."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Benzodiazepines",
+                "url": "https://adf.org.au/drug-facts/benzodiazepines/",
+                "uso": "Efeitos, dependência e combinações."
+            },
+            {
+                "titulo": "NCBI — Benzodiazepines",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK470159/",
+                "uso": "Mecanismo e riscos clínicos."
+            }
+        ]
+    },
+    {
+        "id": "ghb",
+        "nome": "GHB",
+        "categoria": "Depressor",
+        "formula": "C4H8O3",
+        "cor": "#4d6ea8",
+        "resumo": "Depressor do sistema nervoso central com pequena margem entre efeitos e intoxicação grave.",
+        "descricao": "Ácido gama-hidroxibutírico que pode aparecer como líquido, pó ou sal de concentração desconhecida.",
+        "efeitoPredominante": "Sedação e redução da atividade cerebral",
+        "mecanismoCurto": "Ativação de receptores GABA-B e vias relacionadas",
+        "mecanismo": "Atua em receptores próprios e, em concentrações maiores, em receptores GABA-B, reduzindo atividade neuronal.",
+        "mecanismoSimples": "Reforça sinais que desaceleram o cérebro; pequenas diferenças de concentração podem mudar muito os efeitos.",
+        "fontes": [
+            "Líquido incolor",
+            "Pó",
+            "Cristais",
+            "Sais de GHB"
+        ],
+        "efeitos": [
+            "Relaxamento",
+            "Sonolência",
+            "Euforia",
+            "Desinibição",
+            "Tontura",
+            "Perda de memória"
+        ],
+        "riscos": [
+            "Vômitos",
+            "Convulsões",
+            "Respiração lenta",
+            "Perda de consciência",
+            "Coma",
+            "Dependência"
+        ],
+        "abstinenciaTexto": "A abstinência após uso frequente pode evoluir rapidamente e exigir atendimento.",
+        "abstinencia": [
+            "Ansiedade",
+            "Insônia",
+            "Tremores",
+            "Sudorese",
+            "Agitação",
+            "Alucinações",
+            "Delírio em casos graves"
+        ],
+        "interacoes": [
+            "Álcool, benzodiazepínicos e opioides: risco muito alto de overdose.",
+            "Estimulantes podem mascarar a sedação e aumentar risco cardíaco."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — GHB",
+                "url": "https://adf.org.au/drug-facts/ghb/",
+                "uso": "Efeitos, overdose e abstinência."
+            },
+            {
+                "titulo": "ADF — Depressants",
+                "url": "https://adf.org.au/drug-facts/depressants/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — GHB",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3037032",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "cannabis",
+        "nome": "Cannabis (THC)",
+        "categoria": "Canabinoide",
+        "formula": "C21H30O2",
+        "cor": "#7c5ce7",
+        "resumo": "A cannabis contém diferentes canabinoides; o THC é o principal composto associado aos efeitos psicoativos.",
+        "descricao": "Os efeitos variam conforme composição, quantidade, forma de uso e características individuais.",
+        "efeitoPredominante": "Alteração da percepção e do estado mental",
+        "mecanismoCurto": "Ativação de receptores canabinoides",
+        "mecanismo": "O THC ativa principalmente receptores CB1 e CB2, ligados a memória, movimento, percepção, apetite e humor.",
+        "mecanismoSimples": "Ativa receptores do sistema endocanabinoide e altera temporariamente a comunicação neuronal.",
+        "fontes": [
+            "Flores secas",
+            "Resina e haxixe",
+            "Óleos e extratos",
+            "Produtos comestíveis",
+            "Produtos vaporizados"
+        ],
+        "efeitos": [
+            "Relaxamento",
+            "Euforia",
+            "Alteração do tempo",
+            "Aumento do apetite",
+            "Sonolência",
+            "Redução da memória recente",
+            "Ansiedade"
+        ],
+        "riscos": [
+            "Prejuízo da coordenação",
+            "Acidentes",
+            "Náusea",
+            "Taquicardia",
+            "Crise de pânico",
+            "Paranoia",
+            "Dependência"
+        ],
+        "abstinenciaTexto": "O uso frequente pode produzir sintomas temporários após redução ou interrupção.",
+        "abstinencia": [
+            "Irritabilidade",
+            "Ansiedade",
+            "Insônia",
+            "Sonhos intensos",
+            "Redução do apetite",
+            "Dificuldade de concentração"
+        ],
+        "interacoes": [
+            "Álcool aumenta prejuízo da coordenação e náusea.",
+            "Psicodélicos e estimulantes podem intensificar ansiedade e confusão."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Cannabis",
+                "url": "https://adf.org.au/drug-facts/cannabis/",
+                "uso": "Efeitos, riscos e interações."
+            },
+            {
+                "titulo": "NCBI — Tetrahydrocannabinol",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK563174/",
+                "uso": "Mecanismo em CB1 e CB2."
+            },
+            {
+                "titulo": "PubChem — THC",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Tetrahydrocannabinol",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "cbd",
+        "nome": "CBD (Canabidiol)",
+        "categoria": "Canabinoide",
+        "formula": "C21H30O2",
+        "cor": "#4f9a63",
+        "resumo": "Canabinoide que não produz os mesmos efeitos intoxicantes típicos do THC.",
+        "descricao": "Presente em produtos medicinais e não regulamentados; efeitos dependem da dose, formulação e interação com medicamentos.",
+        "efeitoPredominante": "Modulação de múltiplas vias",
+        "mecanismoCurto": "Ação indireta no sistema endocanabinoide e outros alvos",
+        "mecanismo": "Possui baixa afinidade direta por CB1 e CB2 e atua em múltiplos alvos; seu mecanismo completo ainda não é totalmente compreendido.",
+        "mecanismoSimples": "Não age como o THC e modifica várias vias do organismo de forma indireta.",
+        "fontes": [
+            "Óleos de CBD",
+            "Cápsulas",
+            "Soluções orais",
+            "Produtos tópicos",
+            "Formulações medicinais"
+        ],
+        "efeitos": [
+            "Sonolência",
+            "Cansaço",
+            "Diarreia",
+            "Mudanças de apetite",
+            "Náusea",
+            "Tontura"
+        ],
+        "riscos": [
+            "Interações medicamentosas",
+            "Sedação",
+            "Alterações hepáticas",
+            "Produtos mal rotulados",
+            "Contaminação em produtos não regulamentados"
+        ],
+        "abstinenciaTexto": "Não há síndrome típica bem estabelecida, mas mudanças em tratamentos devem ser orientadas.",
+        "abstinencia": [
+            "Não há síndrome física típica estabelecida",
+            "O retorno dos sintomas tratados pode ocorrer",
+            "Mudanças devem ser orientadas quando houver prescrição"
+        ],
+        "interacoes": [
+            "Pode alterar níveis de medicamentos metabolizados pelo fígado.",
+            "Álcool e sedativos podem aumentar sonolência."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — CBD",
+                "url": "https://adf.org.au/drug-facts/cannabidiol/",
+                "uso": "Efeitos, riscos e interações."
+            },
+            {
+                "titulo": "FDA — CBD",
+                "url": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+                "uso": "Segurança e qualidade."
+            },
+            {
+                "titulo": "PubChem — Cannabidiol",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Cannabidiol",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "canabinoides-sinteticos",
+        "nome": "Canabinoides sintéticos",
+        "categoria": "Canabinoide",
+        "formula": "Várias fórmulas",
+        "cor": "#38784d",
+        "resumo": "Compostos produzidos para atuar em receptores canabinoides, frequentemente com efeitos intensos e imprevisíveis.",
+        "descricao": "Podem ser aplicados em materiais vegetais ou líquidos; a composição muda rapidamente.",
+        "efeitoPredominante": "Ativação intensa e imprevisível de receptores canabinoides",
+        "mecanismoCurto": "Agonismo potente de receptores CB1 e CB2",
+        "mecanismo": "Muitos atuam como agonistas completos ou muito potentes dos receptores CB1 e CB2.",
+        "mecanismoSimples": "Podem estimular os mesmos receptores do THC, porém de forma mais forte e variável.",
+        "fontes": [
+            "Misturas vegetais pulverizadas",
+            "Líquidos para vaporizadores",
+            "Pós",
+            "Produtos de composição não declarada"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Sedação",
+            "Confusão",
+            "Ansiedade",
+            "Paranoia",
+            "Alucinações",
+            "Taquicardia"
+        ],
+        "riscos": [
+            "Psicose",
+            "Convulsões",
+            "Arritmias",
+            "Infarto",
+            "Lesão renal",
+            "Overdose",
+            "Risco de morte"
+        ],
+        "abstinenciaTexto": "O uso frequente pode causar dependência e abstinência.",
+        "abstinencia": [
+            "Irritabilidade",
+            "Ansiedade",
+            "Insônia",
+            "Sudorese",
+            "Náusea",
+            "Tremores",
+            "Desejo intenso"
+        ],
+        "interacoes": [
+            "Depressores aumentam risco de sedação e overdose.",
+            "Estimulantes aumentam ansiedade, psicose e sobrecarga cardíaca.",
+            "Lítio pode aumentar risco de psicose e convulsões."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Synthetic Cannabis",
+                "url": "https://adf.org.au/drug-facts/synthetic-cannabis/",
+                "uso": "Efeitos, riscos e interações."
+            },
+            {
+                "titulo": "ADF — Cannabinoids",
+                "url": "https://adf.org.au/drug-facts/cannabinoids/",
+                "uso": "Classificação."
+            }
+        ]
+    },
+    {
+        "id": "lsd",
+        "nome": "LSD",
+        "categoria": "Psicodélico",
+        "formula": "C20H25N3O",
+        "cor": "#6957e8",
+        "resumo": "Psicodélico sintético que pode alterar intensamente percepção, pensamentos, emoções e sensação de tempo.",
+        "descricao": "LSD significa dietilamida do ácido lisérgico e pode produzir alterações visuais, emocionais e cognitivas.",
+        "efeitoPredominante": "Alteração intensa da percepção e do pensamento",
+        "mecanismoCurto": "Ativação de receptores serotoninérgicos",
+        "mecanismo": "Seus efeitos estão relacionados principalmente à ativação parcial de receptores 5-HT2A de serotonina.",
+        "mecanismoSimples": "Liga-se a receptores ligados à serotonina e altera temporariamente a integração de sensações e pensamentos.",
+        "fontes": [
+            "Papéis absorventes",
+            "Solução líquida",
+            "Microdots",
+            "Cápsulas",
+            "Gelatinas"
+        ],
+        "efeitos": [
+            "Alterações visuais",
+            "Mudança na percepção de sons",
+            "Sensação alterada de tempo",
+            "Euforia",
+            "Ansiedade",
+            "Confusão"
+        ],
+        "riscos": [
+            "Bad trip",
+            "Pânico",
+            "Paranoia",
+            "Desorientação",
+            "Acidentes",
+            "Flashbacks",
+            "Produtos adulterados"
+        ],
+        "abstinenciaTexto": "Não há síndrome física típica bem estabelecida, mas a tolerância pode surgir rapidamente.",
+        "abstinencia": [
+            "Tolerância rápida",
+            "Tolerância cruzada",
+            "Ausência de síndrome física típica",
+            "Relatos limitados de dependência psicológica"
+        ],
+        "interacoes": [
+            "Cannabis pode intensificar ansiedade e alterações perceptivas.",
+            "Estimulantes podem aumentar paranoia e agitação."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — LSD",
+                "url": "https://adf.org.au/drug-facts/lsd/",
+                "uso": "Efeitos, riscos e tolerância."
+            },
+            {
+                "titulo": "NCBI — LSD Toxicity",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK553216/",
+                "uso": "Mecanismo e intoxicação."
+            },
+            {
+                "titulo": "PubChem — LSD",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Lysergic-acid-diethylamide",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "psilocibina",
+        "nome": "Psilocibina",
+        "categoria": "Psicodélico",
+        "formula": "C12H17N2O4P",
+        "cor": "#845ec2",
+        "resumo": "Composto psicodélico encontrado em algumas espécies de cogumelos.",
+        "descricao": "Após a ingestão, é convertida em psilocina, responsável por grande parte dos efeitos psicodélicos.",
+        "efeitoPredominante": "Alteração de percepção, pensamento e emoções",
+        "mecanismoCurto": "Conversão em psilocina e ação em 5-HT2A",
+        "mecanismo": "A psilocibina é metabolizada em psilocina, que atua principalmente como agonista parcial em receptores 5-HT2A.",
+        "mecanismoSimples": "O organismo a transforma em psilocina, que altera temporariamente sinais ligados à serotonina.",
+        "fontes": [
+            "Cogumelos frescos ou secos",
+            "Pós",
+            "Cápsulas",
+            "Preparações alimentares"
+        ],
+        "efeitos": [
+            "Alterações visuais",
+            "Mudança do tempo",
+            "Euforia",
+            "Introspecção",
+            "Náusea",
+            "Ansiedade",
+            "Confusão"
+        ],
+        "riscos": [
+            "Pânico",
+            "Paranoia",
+            "Desorientação",
+            "Acidentes",
+            "Identificação errada de cogumelos tóxicos",
+            "Experiência angustiante"
+        ],
+        "abstinenciaTexto": "Não há síndrome física típica conhecida, e a tolerância pode se desenvolver rapidamente.",
+        "abstinencia": [
+            "Tolerância rápida",
+            "Tolerância cruzada",
+            "Ausência de síndrome física típica",
+            "Uso compulsivo é incomum"
+        ],
+        "interacoes": [
+            "Cannabis pode intensificar a experiência.",
+            "Estimulantes podem aumentar ansiedade.",
+            "Outros psicodélicos aumentam a imprevisibilidade."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Psilocybin",
+                "url": "https://adf.org.au/drug-facts/psilocybin/",
+                "uso": "Efeitos, riscos e interações."
+            },
+            {
+                "titulo": "ADF — Psychedelics",
+                "url": "https://adf.org.au/drug-facts/psychedelics/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Psilocybin",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Psilocybin",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "mescalina",
+        "nome": "Mescalina",
+        "categoria": "Psicodélico",
+        "formula": "C11H17NO3",
+        "cor": "#9874d4",
+        "resumo": "Psicodélico encontrado em alguns cactos e também produzido sinteticamente.",
+        "descricao": "Está presente em cactos como peyote e San Pedro e pode alterar percepção, pensamento e emoções.",
+        "efeitoPredominante": "Alteração sensorial e emocional",
+        "mecanismoCurto": "Ativação de receptores serotoninérgicos 5-HT2A",
+        "mecanismo": "Exerce efeitos psicodélicos principalmente por ação agonista em receptores de serotonina, incluindo 5-HT2A.",
+        "mecanismoSimples": "Modifica sinais ligados à serotonina e altera temporariamente sensações e pensamentos.",
+        "fontes": [
+            "Cacto peyote",
+            "Cacto San Pedro",
+            "Pó",
+            "Cápsulas",
+            "Preparações líquidas"
+        ],
+        "efeitos": [
+            "Alterações visuais",
+            "Euforia",
+            "Mudança no tempo",
+            "Náusea",
+            "Vômitos",
+            "Ansiedade",
+            "Sensibilidade a sons e cores"
+        ],
+        "riscos": [
+            "Pânico",
+            "Paranoia",
+            "Desorientação",
+            "Acidentes",
+            "Vômitos intensos",
+            "Pressão elevada",
+            "Produtos adulterados"
+        ],
+        "abstinenciaTexto": "Não há síndrome física típica bem estabelecida.",
+        "abstinencia": [
+            "Tolerância pode ocorrer",
+            "Tolerância cruzada",
+            "Ausência de síndrome física típica",
+            "Dependência é incomum"
+        ],
+        "interacoes": [
+            "Outros psicodélicos intensificam efeitos.",
+            "Cannabis pode aumentar confusão e ansiedade.",
+            "Estimulantes aumentam a sobrecarga cardiovascular."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Mescaline",
+                "url": "https://adf.org.au/drug-facts/mescaline/",
+                "uso": "Efeitos, riscos e classificação."
+            },
+            {
+                "titulo": "ADF — Psychedelics",
+                "url": "https://adf.org.au/drug-facts/psychedelics/",
+                "uso": "Contexto da categoria."
+            },
+            {
+                "titulo": "PubChem — Mescaline",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Mescaline",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "morfina",
+        "nome": "Morfina",
+        "categoria": "Opioide",
+        "formula": "C17H19NO3",
+        "cor": "#a36a32",
+        "resumo": "Opioide utilizado no tratamento de dor intensa, com risco de dependência e depressão respiratória.",
+        "descricao": "Alcaloide do ópio e medicamento importante para dor intensa, utilizado sob orientação profissional.",
+        "efeitoPredominante": "Alívio da dor e depressão do sistema nervoso",
+        "mecanismoCurto": "Agonismo de receptores opioides mu",
+        "mecanismo": "Ativa principalmente receptores opioides mu, reduzindo a transmissão da dor e a atividade dos centros respiratórios.",
+        "mecanismoSimples": "Reduz a dor, mas também pode desacelerar a respiração.",
+        "fontes": [
+            "Comprimidos",
+            "Cápsulas",
+            "Soluções orais",
+            "Formulações injetáveis",
+            "Ambientes hospitalares"
+        ],
+        "efeitos": [
+            "Alívio da dor",
+            "Sonolência",
+            "Euforia",
+            "Náusea",
+            "Constipação",
+            "Respiração lenta"
+        ],
+        "riscos": [
+            "Dependência",
+            "Tolerância",
+            "Depressão respiratória",
+            "Coma",
+            "Overdose",
+            "Risco de morte"
+        ],
+        "abstinenciaTexto": "A retirada após dependência pode ser intensa e deve ter acompanhamento.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Dores musculares",
+            "Diarreia",
+            "Náusea",
+            "Sudorese",
+            "Insônia",
+            "Ansiedade"
+        ],
+        "interacoes": [
+            "Álcool, benzodiazepínicos e GHB aumentam muito o risco de overdose.",
+            "Outros opioides somam efeitos."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Opioids",
+                "url": "https://adf.org.au/drug-facts/opioids/",
+                "uso": "Riscos gerais da categoria."
+            },
+            {
+                "titulo": "NCBI — Morphine",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK526115/",
+                "uso": "Mecanismo e uso clínico."
+            },
+            {
+                "titulo": "PubChem — Morphine",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Morphine",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "fentanil",
+        "nome": "Fentanil",
+        "categoria": "Opioide",
+        "formula": "C22H28N2O",
+        "cor": "#c27a37",
+        "resumo": "Opioide sintético muito potente usado na medicina e associado a alto risco de overdose quando utilizado incorretamente.",
+        "descricao": "Usado em anestesia e dor intensa; pequenas quantidades podem causar depressão respiratória grave.",
+        "efeitoPredominante": "Analgesia intensa e depressão respiratória",
+        "mecanismoCurto": "Agonismo potente de receptores opioides mu",
+        "mecanismo": "Ativa fortemente receptores opioides mu, produzindo analgesia e reduzindo a atividade dos centros respiratórios.",
+        "mecanismoSimples": "Reduz a dor, mas pode desacelerar rapidamente a respiração.",
+        "fontes": [
+            "Adesivos prescritos",
+            "Formulações injetáveis",
+            "Sprays ou pastilhas médicas",
+            "Produtos ilegais",
+            "Contaminação de outras drogas"
+        ],
+        "efeitos": [
+            "Alívio da dor",
+            "Euforia",
+            "Sonolência",
+            "Confusão",
+            "Náusea",
+            "Respiração lenta"
+        ],
+        "riscos": [
+            "Overdose",
+            "Parada respiratória",
+            "Coma",
+            "Dependência",
+            "Perda de consciência",
+            "Risco de morte"
+        ],
+        "abstinenciaTexto": "A retirada após uso prolongado deve ser planejada com acompanhamento profissional.",
+        "abstinencia": [
+            "Calafrios",
+            "Sudorese",
+            "Irritabilidade",
+            "Insônia",
+            "Náusea",
+            "Diarreia",
+            "Dores musculares"
+        ],
+        "interacoes": [
+            "Álcool, benzodiazepínicos e GHB aumentam muito o risco de morte.",
+            "Estimulantes podem mascarar sinais de overdose."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Fentanyl",
+                "url": "https://adf.org.au/drug-facts/fentanyl/",
+                "uso": "Efeitos, overdose e abstinência."
+            },
+            {
+                "titulo": "ADF — Opioids",
+                "url": "https://adf.org.au/drug-facts/opioids/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Fentanyl",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Fentanyl",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "heroina",
+        "nome": "Heroína",
+        "categoria": "Opioide",
+        "formula": "C21H23NO5",
+        "cor": "#8c5a2b",
+        "resumo": "Opioide semissintético com alto potencial de dependência e overdose.",
+        "descricao": "Produzida a partir da morfina e rapidamente convertida em metabólitos ativos no organismo.",
+        "efeitoPredominante": "Euforia, analgesia e depressão respiratória",
+        "mecanismoCurto": "Conversão em metabólitos agonistas de receptores mu",
+        "mecanismo": "É convertida em 6-monoacetilmorfina e morfina, que ativam receptores opioides mu.",
+        "mecanismoSimples": "Transforma-se rapidamente em compostos que reduzem dor e respiração.",
+        "fontes": [
+            "Pó branco ou marrom",
+            "Substância pegajosa escura",
+            "Produtos adulterados",
+            "Misturas com opioides sintéticos"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Alívio da dor",
+            "Sonolência",
+            "Pupilas pequenas",
+            "Náusea",
+            "Respiração lenta"
+        ],
+        "riscos": [
+            "Overdose",
+            "Parada respiratória",
+            "Dependência rápida",
+            "Coma",
+            "Infecções associadas à injeção",
+            "Contaminação com fentanil"
+        ],
+        "abstinenciaTexto": "A abstinência pode começar poucas horas após o último uso e ser intensa.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Ansiedade",
+            "Diarreia",
+            "Vômitos",
+            "Cãibras",
+            "Sudorese",
+            "Insônia",
+            "Coriza"
+        ],
+        "interacoes": [
+            "Álcool, benzodiazepínicos e GHB aumentam fortemente o risco de overdose.",
+            "Estimulantes podem mascarar efeitos e aumentar risco cardíaco."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Heroin",
+                "url": "https://adf.org.au/drug-facts/heroin/",
+                "uso": "Efeitos, overdose e abstinência."
+            },
+            {
+                "titulo": "ADF — Opioids",
+                "url": "https://adf.org.au/drug-facts/opioids/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Heroin",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Heroin",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "cetamina",
+        "nome": "Cetamina",
+        "categoria": "Dissociativo",
+        "formula": "C13H16ClNO",
+        "cor": "#258b9b",
+        "resumo": "Anestésico dissociativo usado na medicina e capaz de causar sensação de separação do corpo e ambiente.",
+        "descricao": "Utilizada como anestésico e em alguns tratamentos controlados; o uso não médico pode alterar percepção e coordenação.",
+        "efeitoPredominante": "Dissociação, analgesia e alteração da percepção",
+        "mecanismoCurto": "Antagonismo dos receptores NMDA",
+        "mecanismo": "Bloqueia principalmente receptores NMDA de glutamato, produzindo anestesia, analgesia e dissociação.",
+        "mecanismoSimples": "Reduz parte dos sinais do glutamato e altera consciência, memória e percepção corporal.",
+        "fontes": [
+            "Soluções injetáveis médicas",
+            "Líquidos",
+            "Pó cristalino",
+            "Produtos desviados"
+        ],
+        "efeitos": [
+            "Sensação de flutuação",
+            "Dissociação",
+            "Analgesia",
+            "Alterações visuais",
+            "Confusão",
+            "Falta de coordenação"
+        ],
+        "riscos": [
+            "Perda de consciência",
+            "Vômitos e aspiração",
+            "Acidentes",
+            "Dependência",
+            "Problemas de memória",
+            "Lesões urinárias e da bexiga"
+        ],
+        "abstinenciaTexto": "O uso frequente pode causar dependência psicológica e sintomas após interrupção.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Ansiedade",
+            "Irritabilidade",
+            "Sudorese",
+            "Insônia",
+            "Humor deprimido"
+        ],
+        "interacoes": [
+            "Álcool, opioides e benzodiazepínicos aumentam risco de perda de consciência.",
+            "Estimulantes podem aumentar a pressão arterial."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Ketamine",
+                "url": "https://adf.org.au/drug-facts/ketamine/",
+                "uso": "Efeitos, riscos e dependência."
+            },
+            {
+                "titulo": "ADF — Dissociatives",
+                "url": "https://adf.org.au/drug-facts/dissociatives/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Ketamine",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Ketamine",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "dxm",
+        "nome": "Dextrometorfano (DXM)",
+        "categoria": "Dissociativo",
+        "formula": "C18H25NO",
+        "cor": "#2e9aaa",
+        "resumo": "Antitussígeno presente em medicamentos para tosse que, em doses elevadas, pode produzir dissociação e intoxicação grave.",
+        "descricao": "Produtos combinados podem conter outras substâncias perigosas quando utilizados em excesso.",
+        "efeitoPredominante": "Dissociação e alteração da percepção em doses elevadas",
+        "mecanismoCurto": "Antagonismo NMDA e ação em outras vias",
+        "mecanismo": "O DXM e seu metabólito dextrorfano bloqueiam receptores NMDA e afetam vias sigma e serotoninérgicas.",
+        "mecanismoSimples": "Em excesso, altera sinais do glutamato e de outros sistemas, produzindo confusão e dissociação.",
+        "fontes": [
+            "Xaropes para tosse",
+            "Cápsulas",
+            "Pastilhas",
+            "Comprimidos",
+            "Medicamentos combinados"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Confusão",
+            "Falta de coordenação",
+            "Dissociação",
+            "Alucinações",
+            "Taquicardia"
+        ],
+        "riscos": [
+            "Problemas respiratórios",
+            "Convulsões",
+            "Hipertermia",
+            "Perda de consciência",
+            "Síndrome serotoninérgica",
+            "Dano hepático por ingredientes combinados"
+        ],
+        "abstinenciaTexto": "O uso prolongado pode causar dependência e abstinência.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Sudorese",
+            "Náusea",
+            "Apatia",
+            "Fadiga",
+            "Batimento acelerado"
+        ],
+        "interacoes": [
+            "Antidepressivos e MDMA aumentam o risco de síndrome serotoninérgica.",
+            "Álcool, opioides, benzodiazepínicos e GHB aumentam risco de overdose."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — DXM",
+                "url": "https://adf.org.au/drug-facts/dxm/",
+                "uso": "Efeitos, overdose e abstinência."
+            },
+            {
+                "titulo": "NCBI — Dextromethorphan Toxicity",
+                "url": "https://www.ncbi.nlm.nih.gov/books/NBK538502/",
+                "uso": "Mecanismo e toxicidade."
+            },
+            {
+                "titulo": "PubChem — Dextromethorphan",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Dextromethorphan",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "oxido-nitroso",
+        "nome": "Óxido nitroso",
+        "categoria": "Dissociativo",
+        "formula": "N2O",
+        "cor": "#40a7b5",
+        "resumo": "Gás usado para sedação e analgesia que também pode produzir dissociação.",
+        "descricao": "Utilizado por profissionais de saúde e na indústria alimentícia; o uso repetido pode causar danos neurológicos.",
+        "efeitoPredominante": "Sedação breve, analgesia e dissociação",
+        "mecanismoCurto": "Modulação de receptores NMDA e outras vias",
+        "mecanismo": "Afeta receptores NMDA e sistemas opioides e GABAérgicos, produzindo analgesia, sedação e alterações de percepção.",
+        "mecanismoSimples": "Altera temporariamente sinais ligados à dor, consciência e percepção.",
+        "fontes": [
+            "Cilindros médicos",
+            "Cartuchos de chantilly",
+            "Balões",
+            "Sistemas de sedação odontológica"
+        ],
+        "efeitos": [
+            "Euforia breve",
+            "Risadas",
+            "Tontura",
+            "Sensação de flutuação",
+            "Dissociação",
+            "Falta de coordenação"
+        ],
+        "riscos": [
+            "Falta de oxigênio",
+            "Desmaio",
+            "Queimaduras pelo gás frio",
+            "Deficiência de vitamina B12",
+            "Danos aos nervos",
+            "Anemia"
+        ],
+        "abstinenciaTexto": "Não há síndrome física típica bem estabelecida, mas pode ocorrer uso compulsivo e tolerância.",
+        "abstinencia": [
+            "Desejo de repetir o uso",
+            "Irritabilidade em alguns casos",
+            "Tolerância",
+            "Sintomas neurológicos podem persistir"
+        ],
+        "interacoes": [
+            "Álcool, opioides e benzodiazepínicos aumentam sedação.",
+            "Outros dissociativos intensificam confusão."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Nitrous Oxide",
+                "url": "https://adf.org.au/drug-facts/nitrous-oxide/",
+                "uso": "Efeitos, riscos e danos neurológicos."
+            },
+            {
+                "titulo": "ADF — Dissociatives",
+                "url": "https://adf.org.au/drug-facts/dissociatives/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Nitrous Oxide",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Nitrous-oxide",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "mdma",
+        "nome": "MDMA",
+        "categoria": "Empatógeno",
+        "formula": "C11H15NO2",
+        "cor": "#e34f9b",
+        "resumo": "Substância sintética com características empatógenas e estimulantes.",
+        "descricao": "Produtos vendidos como ecstasy ou molly podem conter outras substâncias e concentrações imprevisíveis.",
+        "efeitoPredominante": "Conexão emocional e estimulação",
+        "mecanismoCurto": "Liberação aumentada de serotonina e outras monoaminas",
+        "mecanismo": "Atua nos transportadores de serotonina, noradrenalina e dopamina, favorecendo liberação e reduzindo recaptação.",
+        "mecanismoSimples": "Faz com que mais serotonina e outros neurotransmissores permaneçam temporariamente disponíveis.",
+        "fontes": [
+            "Cristais",
+            "Pó",
+            "Comprimidos",
+            "Cápsulas",
+            "Produtos vendidos como ecstasy"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Conexão emocional",
+            "Energia",
+            "Sociabilidade",
+            "Suor",
+            "Bruxismo",
+            "Taquicardia"
+        ],
+        "riscos": [
+            "Hipertermia",
+            "Desidratação",
+            "Hiponatremia",
+            "Arritmias",
+            "Síndrome serotoninérgica",
+            "Convulsões",
+            "Produtos adulterados"
+        ],
+        "abstinenciaTexto": "O uso repetido pode produzir alterações temporárias de humor, sono e energia.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Exaustão",
+            "Ansiedade",
+            "Humor deprimido",
+            "Irritabilidade",
+            "Insônia"
+        ],
+        "interacoes": [
+            "MAOIs e outros serotoninérgicos aumentam risco de síndrome serotoninérgica.",
+            "Estimulantes aumentam sobrecarga cardiovascular."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — MDMA",
+                "url": "https://adf.org.au/drug-facts/mdma/",
+                "uso": "Efeitos, overdose e abstinência."
+            },
+            {
+                "titulo": "ADF — Empathogens",
+                "url": "https://adf.org.au/drug-facts/empathogens/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — MDMA",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/MDMA",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    },
+    {
+        "id": "mda",
+        "nome": "MDA",
+        "categoria": "Empatógeno",
+        "formula": "C10H13NO2",
+        "cor": "#cf4d8f",
+        "resumo": "Substância empatógena e estimulante relacionada ao MDMA, geralmente com efeitos mais psicodélicos.",
+        "descricao": "Pode aparecer em comprimidos ou pós vendidos como outras substâncias.",
+        "efeitoPredominante": "Estimulação, empatia e alterações perceptivas",
+        "mecanismoCurto": "Liberação de serotonina, noradrenalina e dopamina",
+        "mecanismo": "Atua como substrato de transportadores de monoaminas e também apresenta ação serotoninérgica associada a efeitos psicodélicos.",
+        "mecanismoSimples": "Aumenta temporariamente vários neurotransmissores e pode produzir conexão emocional e alterações perceptivas.",
+        "fontes": [
+            "Comprimidos",
+            "Cápsulas",
+            "Pó",
+            "Cristais",
+            "Produtos vendidos como MDMA"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Empatia",
+            "Energia",
+            "Alterações visuais",
+            "Suor",
+            "Bruxismo",
+            "Taquicardia"
+        ],
+        "riscos": [
+            "Hipertermia",
+            "Desidratação",
+            "Síndrome serotoninérgica",
+            "Arritmias",
+            "Convulsões",
+            "Paranoia",
+            "Produtos adulterados"
+        ],
+        "abstinenciaTexto": "Após uso repetido, podem ocorrer cansaço e alterações de humor e sono.",
+        "abstinencia": [
+            "Exaustão",
+            "Humor deprimido",
+            "Irritabilidade",
+            "Ansiedade",
+            "Insônia",
+            "Desejo de repetir o uso"
+        ],
+        "interacoes": [
+            "Outros serotoninérgicos aumentam risco de síndrome serotoninérgica.",
+            "Estimulantes aumentam risco cardiovascular."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Empathogens",
+                "url": "https://adf.org.au/drug-facts/empathogens/",
+                "uso": "Classificação e efeitos gerais."
+            },
+            {
+                "titulo": "PubChem — MDA",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3_4-Methylenedioxyamphetamine",
+                "uso": "Fórmula molecular."
+            },
+            {
+                "titulo": "ADF — Drug Wheel",
+                "url": "https://adf.org.au/insights/drug-wheel/",
+                "uso": "Organização da categoria."
+            }
+        ]
+    },
+    {
+        "id": "mefedrona",
+        "nome": "Mefedrona",
+        "categoria": "Empatógeno",
+        "formula": "C11H15NO",
+        "cor": "#d665a1",
+        "resumo": "Catinona sintética com efeitos empatógenos e estimulantes.",
+        "descricao": "Também chamada 4-MMC, é uma nova substância psicoativa criada para produzir efeitos semelhantes aos de estimulantes e MDMA.",
+        "efeitoPredominante": "Estimulação e aumento temporário da sociabilidade",
+        "mecanismoCurto": "Aumento da liberação de monoaminas",
+        "mecanismo": "Atua nos transportadores de dopamina, noradrenalina e serotonina, favorecendo liberação e reduzindo recaptação.",
+        "mecanismoSimples": "Aumenta temporariamente sinais de recompensa, alerta e conexão social.",
+        "fontes": [
+            "Pó branco ou amarelado",
+            "Cristais",
+            "Cápsulas",
+            "Comprimidos",
+            "Misturas adulteradas"
+        ],
+        "efeitos": [
+            "Euforia",
+            "Energia",
+            "Sociabilidade",
+            "Empatia",
+            "Suor",
+            "Bruxismo",
+            "Taquicardia"
+        ],
+        "riscos": [
+            "Dependência",
+            "Uso compulsivo",
+            "Hipertermia",
+            "Arritmias",
+            "Convulsões",
+            "Psicose",
+            "Síndrome serotoninérgica"
+        ],
+        "abstinenciaTexto": "A interrupção pode causar queda de energia, alterações de humor e desejo intenso.",
+        "abstinencia": [
+            "Desejo intenso",
+            "Cansaço",
+            "Humor deprimido",
+            "Ansiedade",
+            "Irritabilidade",
+            "Insônia"
+        ],
+        "interacoes": [
+            "Outros estimulantes aumentam sobrecarga cardíaca.",
+            "MDMA e antidepressivos aumentam risco serotoninérgico."
+        ],
+        "referencias": [
+            {
+                "titulo": "ADF — Mephedrone",
+                "url": "https://adf.org.au/drug-facts/mephedrone/",
+                "uso": "Efeitos, riscos e dependência."
+            },
+            {
+                "titulo": "ADF — Empathogens",
+                "url": "https://adf.org.au/drug-facts/empathogens/",
+                "uso": "Classificação."
+            },
+            {
+                "titulo": "PubChem — Mephedrone",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Mephedrone",
+                "uso": "Fórmula molecular."
+            }
+        ]
+    }
+]

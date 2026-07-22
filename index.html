@@ -14,6 +14,7 @@
 
     <script src="js/menu-lateral.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/categorias-home.js" defer></script>
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                     <span class="etiqueta">Atlas educacional interativo</span>
 
                     <h1>
-                        Entenda como diferentes substâncias afetam o cérebro
+                        Entenda como diferentes psicoativos afetam o cérebro
                         e o organismo.
                     </h1>
 
@@ -99,7 +100,149 @@
                 </article>
             </div>
         </section>
+        <section class="secao secao-categorias-home" id="categorias">
+                <div class="container">
+            <div class="titulo-secao">
+            <span class="etiqueta">
+                Organização da biblioteca
+            </span>
 
+            <h2>
+                Conheça as categorias de psicoativos
+            </h2>
+
+            <p>
+                Os psicoativos são organizados de acordo com seus
+                efeitos predominantes sobre o cérebro e o organismo.
+                Algumas podem apresentar características de mais de
+                uma categoria.
+            </p>
+        </div>
+
+        <div
+            class="grade-categorias-home"
+            id="lista-categorias-home"
+            aria-live="polite"
+        >
+            <p class="mensagem-carregamento">
+                Carregando categorias...
+            </p>
+        </div>
+
+        <div class="acao-biblioteca">
+            <a
+                class="botao botao-principal"
+                href="biblioteca.html"
+            >
+                Explorar todas as categorias
+            </a>
+        </div>
+    </div>
+</section>
+<section class="secao secao-como-explorar" id="como-explorar">
+    <div class="container">
+        <div class="titulo-secao">
+            <span class="etiqueta">
+                Guia de navegação
+            </span>
+
+            <h2>
+                Como explorar o NeuroMap
+            </h2>
+
+            <p>
+                Utilize os recursos da plataforma para conhecer as
+                categorias, comparar psicoativos e acessar informações
+                educativas de forma organizada.
+            </p>
+        </div>
+
+        <div class="grade-como-explorar">
+            <article class="passo-explorar">
+                <span class="passo-numero">
+                    01
+                </span>
+
+                <div class="passo-icone" aria-hidden="true">
+                    ◫
+                </div>
+
+                <h3>
+                    Escolha uma categoria
+                </h3>
+
+                <p>
+                    Comece selecionando o grupo de psicoativos que deseja
+                    conhecer, como estimulantes, depressores, opioides
+                    ou psicodélicos.
+                </p>
+
+                <a href="#categorias">
+                    Ver categorias
+                </a>
+            </article>
+
+            <article class="passo-explorar">
+                <span class="passo-numero">
+                    02
+                </span>
+
+                <div class="passo-icone" aria-hidden="true">
+                   ⌕
+                </div>
+
+                <h3>
+                    Pesquise um perfil
+                </h3>
+
+                <p>
+                    Na biblioteca, pesquise pelo nome, fórmula química,
+                    categoria, mecanismo de ação ou efeitos associados.
+                </p>
+
+                <a href="biblioteca.html">
+                    Abrir biblioteca
+                </a>
+            </article>
+
+            <article class="passo-explorar">
+                <span class="passo-numero">
+                    03
+                </span>
+
+                <div class="passo-icone" aria-hidden="true">
+                    ◎
+                </div>
+
+                <h3>
+                    Analise as informações
+                </h3>
+
+                <p>
+                    Cada perfil apresenta descrição, mecanismo, efeitos,
+                    riscos, abstinência, interações e referências para
+                    aprofundamento.
+                </p>
+
+                <a href="#substancias">
+                    Ver perfis em destaque
+                </a>
+            </article>
+        </div>
+
+        <div class="aviso-exploracao">
+            <strong>
+                Conteúdo educativo
+            </strong>
+
+            <p>
+                O NeuroMap apresenta informações para estudo e
+                conscientização. O conteúdo não substitui diagnóstico,
+                tratamento ou orientação de profissionais de saúde.
+            </p>
+        </div>
+    </div>
+</section>
         <section class="secao" id="substancias">
             <div class="container">
                 <div class="titulo-secao">
@@ -210,7 +353,7 @@
         <div class="container rodape-conteudo">
             <div>
                 <strong>NeuroMap</strong>
-                <p>Atlas interativo de substâncias e neurociência.</p>
+                <p>Atlas interativo de psicoativos e neurociência.</p>
             </div>
 
             <p id="ano-rodape"></p>
